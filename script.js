@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div id="modelViewerContainer"></div>`;
             break;
             case 'image2':
-                newContent.innerHTML = "<h2>Bot Content</h2><p>You don't want to see me pla this role.</p>";
+                newContent.innerHTML = "<h2>Bot Content</h2><p>You don't want to see me play this role.</p>";
                 break;
             case 'image3':
                 newContent.innerHTML = "<h2>Support Content</h2><p>You don't want to see me play this role.</p>";
