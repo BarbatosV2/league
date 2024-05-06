@@ -65,12 +65,17 @@ body {
 
 /* Add this CSS to your existing styles.css file or include it in your <style> tags */
 .model-viewer-container {
-    width: 200%; /* Adjust width as needed */
-    max-width: 800px; /* Maximum width for larger screens */
-    margin: 0 auto;
+    width: 100%; /* Set the width to 80% of the viewport width */
+    max-width: 800px; /* Limit the maximum width for larger screens */
+    height: 800px; /* Adjust the height as needed */
+    margin: 0 auto; /* Center the container horizontally */
 }
 
 .model-viewer {
     width: 100%;
     height: auto; /* Automatically adjust height to maintain aspect ratio */
+}
+
+.paragraph-container {
+    color: #F0E6D2; /* Default font color */
 }
