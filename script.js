@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 break;
             case 'image5':
                 newContent.innerHTML = `
-                <h2>Jungle Content</h2>
+                <h2>Top Content</h2>
                 <div class="model-viewer-container">
                 <model-viewer src="3dAnimated/dragon-knight-mordekaiser.glb" alt="Model 4" ar ar-modes="webxr scene-viewer quick-look" camera-controls autoplay animation-name="Walk"></model-viewer>
                 </div>
