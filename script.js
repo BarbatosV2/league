@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="model-viewer-container">
                 <model-viewer src="3dAnimated/sejuani.glb" alt="Model 4" ar ar-modes="webxr scene-viewer quick-look" camera-controls autoplay></model-viewer>
                 </div>
-                <p>This is the content related to Image 1.</p>`
+                <p>This is the content related to Image 4.</p>`
                 break;
             case 'image5':
                 newContent.innerHTML = '<h2>Top Content</h2><p>This is the content related to Image 5.</p>';
