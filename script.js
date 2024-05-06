@@ -42,11 +42,11 @@ document.addEventListener('DOMContentLoaded', function() {
         switch (imageId) {
             case 'image1':
                 newContent.innerHTML = `
-                    <h2>Mid Content</h2>
-                    <div class="model-viewer-container">
+                    <h2>Mid Content (Still in testing State)</h2>
+
                     <model-viewer src="3dAnimated/hextech-malzahar.glb" alt="Model 1" ar ar-modes="webxr scene-viewer quick-look" camera-controls autoplay></model-viewer>
-                    </div>
-                    <p>This is the content related to Image 1.</p>`
+                    <p>My Malzahar Playstyle.</p>
+                    <p>E W Q the wave, if Jungle come Flash, E R the enemy champ`
                 break;
             case 'image2':
                 newContent.innerHTML = '<h2>Bot Content</h2><p>This is the content related to Image 2.</p>';
@@ -63,7 +63,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p>This is the content related to Image 4.</p>`
                 break;
             case 'image5':
-                newContent.innerHTML = '<h2>Top Content</h2><p>This is the content related to Image 5.</p>';
+                newContent.innerHTML = `
+                <h2>Jungle Content</h2>
+                <div class="model-viewer-container">
+                <model-viewer src="3dAnimated/dragon-knight-mordekaiser.glb" alt="Model 4" ar ar-modes="webxr scene-viewer quick-look" camera-controls autoplay animation-name="Walk"></model-viewer>
+                </div>
+                <p>This is the content related to Image 5.</p>`
                 break;
             // Add cases for more images here
             default:
@@ -83,4 +88,5 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }
+
 });

@@ -65,10 +65,12 @@ body {
 
 /* Add this CSS to your existing styles.css file or include it in your <style> tags */
 .model-viewer-container {
-    width: 400; /* Adjust width as needed */
-    height: 400; /* Adjust height as needed */
+    width: 200%; /* Adjust width as needed */
+    max-width: 800px; /* Maximum width for larger screens */
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+.model-viewer {
+    width: 100%;
+    height: auto; /* Automatically adjust height to maintain aspect ratio */
 }
