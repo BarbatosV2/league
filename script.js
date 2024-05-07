@@ -55,7 +55,10 @@ document.addEventListener('DOMContentLoaded', function() {
             case 'image2':
                 newContent.innerHTML = `
                 <h2>Top Content</h2>
-                <model-viewer src="3dAnimated/dragon-knight-mordekaiser.glb" alt="Model 5" ar ar-modes="webxr scene-viewer quick-look" animation-name="Walk" camera-controls autoplay camera-orbit="0deg 90deg m"></model-viewer>
+                <model-viewer src="3dAnimated/dragon-knight-mordekaiser.glb" 
+                alt="Model 5" ar ar-modes="webxr scene-viewer quick-look" 
+                animation-name="Walk" camera-controls autoplay 
+                camera-orbit="0deg 90deg m"></model-viewer>
                 <p>This is the content related to Image 5.</p>`;
                 break;
             case 'image3':
@@ -116,7 +119,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <model-viewer src="3dAnimated/${selectedModel}" 
                         alt="Model" ar ar-modes="webxr scene-viewer quick-look" 
                         camera-controls 
-                        animation-name="Idle 1" autoplay>
+                        animation-name="Taunt" autoplay>
                         </model-viewer>`;
                     paragraphContainer1.innerHTML = `
                         <p>My Sejuani Playstyle.</p>
