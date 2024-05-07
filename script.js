@@ -46,8 +46,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     <label for="model1">Choose a Champion:</label>
                     <select id="modelSelector1">
                         <option value="">Select</option>
-                        <option value="sejuani.glb">Sejuani</option>
                         <option value="project-warwick.glb">Warwick</option>
+                        <option value="sejuani.glb">Sejuani</option>
                     </select>
                     <div id="modelViewerContainer1"></div>
                     <div id="paragraphContainer1" class="paragraph-container1"></div>`;

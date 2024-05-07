@@ -83,6 +83,10 @@ body {
     height: 40vh;
     margin: auto;
     position: relative; /* Ensure the background image is positioned relative to the model viewer */
+    background-image: url(icons/boarder.png);
+    background-size: 80%; /* Adjust the size as needed */
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 model-viewer::before {
