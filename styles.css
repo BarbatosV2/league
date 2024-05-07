@@ -13,11 +13,21 @@ body {
 
 .arrow-image {
     position: absolute;
-    top: 15%;
+    top: 200px;
     width: 50px; /* Adjust size as needed */
     height: 50px; /* Adjust size as needed */
     cursor: pointer;
     z-index: 1;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+}
+
+.username {
+    color: #F0E6D2;
+    font-family: 'Beaufort', sans-serif;
 }
 
 .arrow-image:hover {
@@ -129,4 +139,12 @@ model-viewer::before {
         width: auto;
     }
 
+}
+
+@font-face {
+    font-family: 'Beaufort';
+    src: url('font/BeaufortforLOL-Regular.ttf') format('woff2'), /* Change the path to the font file */
+         url('font/BeaufortforLOL-Italic.ttf') format('woff'); /* Change the path to the font file */
+    font-weight: normal;
+    font-style: normal;
 }
