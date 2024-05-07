@@ -1,7 +1,7 @@
 body {
     background-color: #1E2328; /* Grey background color */
     font-family: Arial, sans-serif;
-    overflow-x: hidden;
+    overflow-x: clip;
 }
 
 .image-container {
@@ -123,10 +123,6 @@ model-viewer::before {
 }
 
   @media only screen and (max-width: 800px) {
-
-    body {
-        overflow-x: hidden;
-    }
 
     .gallery-image {
         width: 150px;
