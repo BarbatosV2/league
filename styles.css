@@ -113,4 +113,16 @@ model-viewer::before {
         height: 150px;
     }
 
+    .model-viewer-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .model-view-css-fix {
+        height: -10%; /* Adjust height as needed */
+        width: auto;
+    }
+
 }
