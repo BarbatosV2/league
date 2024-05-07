@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <model-viewer src="3dAnimated/${selectedModel}" 
                         alt="Model" ar ar-modes="webxr scene-viewer quick-look" 
                         camera-controls 
-                        animation-name="Idle 1" autoplay>
+                        animation-name="Dance" autoplay>
                         </model-viewer>`;
                     paragraphContainer3.innerHTML = `
                         <p>My Malzahar Playstyle.</p>
