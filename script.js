@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <model-viewer src="3dAnimated/${selectedModel}" 
                         alt="Model" ar ar-modes="webxr scene-viewer quick-look" 
                         camera-controls 
-                        animation-name="Taunt" autoplay>
+                        animation-name="Run3" autoplay>
                         </model-viewer>`;
                     paragraphContainer1.innerHTML = `
                         <p>My Sejuani Playstyle.</p>
