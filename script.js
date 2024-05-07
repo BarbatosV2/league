@@ -49,7 +49,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     <option value="hextech-malzahar.glb">Malzahar</option>
                     <option value="veigar.glb">Veigar</option>
                 </select>
-                <div id="modelViewerContainer"></div>`;
+                <div id="modelViewerContainer"></div>
+                <div id="paragraphContainer" class="paragraph-container"></div>`;
             break;
             case 'image2':
                 newContent.innerHTML = "<h2>Bot Content</h2><p>You don't want to see me play this role.</p>";
@@ -88,22 +89,30 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Add event listener for model selector
-    const modelSelector = document.getElementById('modelSelector');
-    const paragraphContainer = document.getElementById('paragraphContainer'); // Moved outside event listener
-    modelSelector.addEventListener('change', function() {
+// Add event listener for model selector
+document.addEventListener('change', function(event) {
+    const modelSelector = event.target;
+    if (modelSelector.id === 'modelSelector') {
         const selectedModel = modelSelector.value;
         const modelViewerContainer = document.getElementById('modelViewerContainer');
-        modelViewerContainer.innerHTML = `<model-viewer src="3dAnimated/${selectedModel}" alt="Model" ar ar-modes="webxr scene-viewer quick-look" camera-controls animation-name="Idle 1" autoplay></model-viewer>`;
-        // Update paragraphs based on the selected model
+        const paragraphContainer = document.getElementById('paragraphContainer');
+        // Clear model viewer container content
+        modelViewerContainer.innerHTML = '';
+        // Update model viewer container based on the selected model
         switch (selectedModel) {
             case 'hextech-malzahar.glb':
+                // Set model viewer container content for Malzahar
+                modelViewerContainer.innerHTML = `
+                    <model-viewer src="3dAnimated/${selectedModel}" alt="Model" ar ar-modes="webxr scene-viewer quick-look" camera-controls animation-name="Idle 1" autoplay></model-viewer>`;
                 paragraphContainer.innerHTML = `
                     <p>My Malzahar Playstyle.</p>
                     <p>I turn off my brain</p>
                     <p>E W Q the wave, if Jungle come Flash (if necessary), E R the enemy champ</p>`;
                 break;
             case 'veigar.glb':
+                // Set model viewer container content for Veigar
+                modelViewerContainer.innerHTML = `
+                    <model-viewer src="3dAnimated/${selectedModel}" alt="Model" ar ar-modes="webxr scene-viewer quick-look" camera-controls animation-name="Idle 1" autoplay></model-viewer>`;
                 paragraphContainer.innerHTML = `
                     <p>My Veigar Playstyle.</p>
                     <p>I play the long game.</p>
@@ -111,8 +120,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 break;
             // Add cases for other models here
             default:
-                paragraphContainer.innerHTML = ''; // Clear paragraphs if no model matches
+                // Clear model viewer container content if no model matches
+                modelViewerContainer.innerHTML = '';
+                // Clear paragraphs if no model matches
+                paragraphContainer.innerHTML = '';
+                break;
         }
-    });
+    }
+});
+
+
 
 });
