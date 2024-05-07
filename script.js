@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <select id="modelSelector1">
                         <option value="">Select</option>
                         <option value="sejuani.glb">Sejuani</option>
-                        <option value="project-warwick.glb" selected>Warwick</option>
+                        <option value="project-warwick.glb">Warwick</option>
                     </select>
                     <div id="modelViewerContainer1"></div>
                     <div id="paragraphContainer1" class="paragraph-container1"></div>`;
@@ -84,6 +84,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         // Append new content to the container
         contentContainer.appendChild(newContent);
+
     }
 
     // Function to adjust opacity for side images
