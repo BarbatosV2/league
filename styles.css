@@ -62,20 +62,16 @@ body {
         opacity: 1;
     }
 }
-
-/* Add this CSS to your existing styles.css file or include it in your <style> tags */
-.model-viewer-container {
-    width: 100%; /* Set the width to 80% of the viewport width */
-    max-width: 800px; /* Limit the maximum width for larger screens */
-    height: 800px; /* Adjust the height as needed */
-    margin: 0 auto; /* Center the container horizontally */
-}
-
-.model-viewer {
-    width: 100%;
-    height: auto; /* Automatically adjust height to maintain aspect ratio */
-}
-
 .paragraph-container {
     color: #F0E6D2; /* Default font color */
 }
+
+.model-view-css-fix{
+    object-fit: contain;
+    height: 80vh;
+    width:auto;  
+  }
+  model-viewer {
+    width: 80vh;
+    height: 40vh;
+  } 

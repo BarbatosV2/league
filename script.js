@@ -49,8 +49,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     <option value="hextech-malzahar.glb">Malzahar</option>
                     <option value="veigar.glb">Veigar</option>
                 </select>
-                <div id="modelViewerContainer"></div>
-                <div id="paragraphContainer" class="paragraph-container"></div>`;
+                <div id="modelViewerContainer1"></div>
+                <div id="paragraphContainer1" class="paragraph-container1"></div>`;
             break;
             case 'image2':
                 newContent.innerHTML = "<h2>Bot Content</h2><p>You don't want to see me play this role.</p>";
@@ -61,13 +61,13 @@ document.addEventListener('DOMContentLoaded', function() {
             case 'image4':
                 newContent.innerHTML = `
                     <h2>Jungle Content</h2>
-                    <model-viewer src="3dAnimated/sejuani.glb" alt="Model 4" ar ar-modes="webxr scene-viewer quick-look" camera-controls autoplay camera-orbit="0deg 60deg 1m"></model-viewer>
+                    <model-viewer src="3dAnimated/sejuani.glb" alt="Model 4" ar ar-modes="webxr scene-viewer quick-look" camera-controls autoplay camera-orbit="0deg 90deg m"></model-viewer>
                     <p>This is the content related to Image 5.</p>`
                 break;
             case 'image5':
                 newContent.innerHTML = `
                     <h2>Top Content</h2>
-                    <model-viewer src="3dAnimated/dragon-knight-mordekaiser.glb" alt="Model 5" ar ar-modes="webxr scene-viewer quick-look" animation-name="Walk" camera-controls autoplay camera-orbit="0deg 60deg 1m"></model-viewer>
+                    <model-viewer src="3dAnimated/dragon-knight-mordekaiser.glb" alt="Model 5" ar ar-modes="webxr scene-viewer quick-look" animation-name="Walk" camera-controls autoplay camera-orbit="0deg 90deg m"></model-viewer>
                     <p>This is the content related to Image 5.</p>`
                 break;
             // Add cases for more images here
@@ -94,26 +94,26 @@ document.addEventListener('change', function(event) {
     const modelSelector = event.target;
     if (modelSelector.id === 'modelSelector') {
         const selectedModel = modelSelector.value;
-        const modelViewerContainer = document.getElementById('modelViewerContainer');
-        const paragraphContainer = document.getElementById('paragraphContainer');
+        const modelViewerContainer1 = document.getElementById('modelViewerContainer1');
+        const paragraphContainer1 = document.getElementById('paragraphContainer1');
         // Clear model viewer container content
-        modelViewerContainer.innerHTML = '';
+        modelViewerContainer1.innerHTML = '';
         // Update model viewer container based on the selected model
         switch (selectedModel) {
             case 'hextech-malzahar.glb':
                 // Set model viewer container content for Malzahar
-                modelViewerContainer.innerHTML = `
+                modelViewerContainer1.innerHTML = `
                     <model-viewer src="3dAnimated/${selectedModel}" alt="Model" ar ar-modes="webxr scene-viewer quick-look" camera-controls animation-name="Idle 1" autoplay></model-viewer>`;
-                paragraphContainer.innerHTML = `
+                paragraphContainer1.innerHTML = `
                     <p>My Malzahar Playstyle.</p>
                     <p>I turn off my brain</p>
                     <p>E W Q the wave, if Jungle come Flash (if necessary), E R the enemy champ</p>`;
                 break;
             case 'veigar.glb':
                 // Set model viewer container content for Veigar
-                modelViewerContainer.innerHTML = `
+                modelViewerContainer1.innerHTML = `
                     <model-viewer src="3dAnimated/${selectedModel}" alt="Model" ar ar-modes="webxr scene-viewer quick-look" camera-controls animation-name="Idle 1" autoplay></model-viewer>`;
-                paragraphContainer.innerHTML = `
+                paragraphContainer1.innerHTML = `
                     <p>My Veigar Playstyle.</p>
                     <p>I play the long game.</p>
                     <p>Stacking AP until I can one-shot anyone.</p>`;
@@ -121,9 +121,9 @@ document.addEventListener('change', function(event) {
             // Add cases for other models here
             default:
                 // Clear model viewer container content if no model matches
-                modelViewerContainer.innerHTML = '';
+                modelViewerContainer1.innerHTML = '';
                 // Clear paragraphs if no model matches
-                paragraphContainer.innerHTML = '';
+                paragraphContainer1.innerHTML = '';
                 break;
         }
     }
