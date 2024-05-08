@@ -126,7 +126,9 @@ document.addEventListener('DOMContentLoaded', function() {
                         <p>Starts with W</p>
                         <p>I can finish the camps within 3:30 mins so just survive :P</p>
                         <h2>Blue Side Jungle Pathing</h2>
-                        <img src="map/LoLMap_Blue.png">`;
+                        <img src="map/LoLMap_Blue.png">
+                        <h2>Red Side Jungle Pathing</h2>
+                        <img src="map/LoLMap_Red.png">`;
                     break;
                 case 'project-warwick.glb':
                     // Set model viewer container content for Veigar
