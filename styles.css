@@ -53,7 +53,9 @@ body {
 }
 
 .map-container {
-    margin: 20px;
+    width: 300px; /* Set the width of the container */
+    height: 300px; /* Set the height of the container */
+    margin: auto;
     position: relative;
     display: flex;
     justify-content: center;
@@ -62,13 +64,12 @@ body {
 
 .map-container img {
     /* Additional styles for the image */
-    max-width: 40%;
-    max-height: 40%;
-    display: block;
-    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .title {
+    padding: 10px;
     text-align: center;
 }
 
