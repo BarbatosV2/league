@@ -52,6 +52,14 @@ body {
     opacity: 0.; /* Faded opacity for side images */
 }
 
+.map {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    transition: transform 0.3s ease-in-out;
+    opacity: 0.; /* Faded opacity for side images */
+}
+
 .gallery-image:hover {
     transform: scale(1.1);
 }
