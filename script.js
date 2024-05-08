@@ -124,7 +124,9 @@ document.addEventListener('DOMContentLoaded', function() {
                     paragraphContainer1.innerHTML = `
                         <p>My Sejuani Playstyle.</p>
                         <p>Starts with W</p>
-                        <p>I can finish the camps within 3:30 mins so just survive :P</p>`;
+                        <p>I can finish the camps within 3:30 mins so just survive :P</p>
+                        <h2>Blue Side Jungle Pathing</h2>
+                        <img src="map/LoLMap_Blue.png">`;
                     break;
                 case 'project-warwick.glb':
                     // Set model viewer container content for Veigar
@@ -137,7 +139,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     paragraphContainer1.innerHTML = `
                         <p>My Warwick Playstyle.</p>
                         <p>Woof woof</p>
-                        <p>I bite and heal</p>`;
+                        <p>I bite and heal</p>
+                        <img src="junglemonster/Voidgrub_Render.webp">`;
                     break;
                 // Add cases for other models here
                 default:
