@@ -127,11 +127,11 @@ document.addEventListener('DOMContentLoaded', function() {
                         <p>My Sejuani Playstyle.</p>
                         <p>Starts with W</p>
                         <p>I can finish the camps within 3:30 mins so just survive :P</p>
-                        <h2 class="title">Blue Side Jungle Pathing</h2>
+                        <h2 class="title">Jungle Pathing (Blue)</h2>
                         <div class="map-container">
                         <img src="map/Sejuani/LoLMap_Blue.png" alt="LoLMap_Blue">
                         </div>
-                        <h2 class="title">Red Side Jungle Pathing</h2>
+                        <h2 class="title">Jungle Pathing (Red)</h2>
                         <div class="map-container">
                         <img src="map/Sejuani/LoLMap_Red.png" alt="LoLMap_Red">
                         </div>`;
@@ -148,11 +148,11 @@ document.addEventListener('DOMContentLoaded', function() {
                         <p>My Warwick Playstyle.</p>
                         <p>Woof woof</p>
                         <p>I bite and heal</p>
-                        <h2 class="title">Blue Side Jungle Pathing</h2>
+                        <h2 class="title">Jungle Pathing (Blue)</h2>
                         <div class="map-container">
                         <img src="map/Warwick/LoLMap_Blue.png" alt="LoLMap_Blue">
                         </div>
-                        <h2 class="title">Red Side Jungle Pathing</h2>
+                        <h2 class="title">Jungle Pathing (Red)</h2>
                         <div class="map-container">
                         <img src="map/Warwick/LoLMap_Red.png" alt="LoLMap_Red">
                         </div>`;
