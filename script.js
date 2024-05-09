@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
         switch (imageId) {
             case 'image1':
                 newContent.innerHTML = `
-                    <h2 class="title">Jungle Content</h2>
+                    <h2 class="title">Jungle</h2>
                     <label for="model1">Choose a Champion:</label>
                     <select id="modelSelector1">
                         <option value="">Select</option>
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
             break;
             case 'image2':
                 newContent.innerHTML = `
-                <h2 class="title">Top Content</h2>
+                <h2 class="title">Top</h2>
                 <model-viewer src="3dAnimated/dragon-knight-mordekaiser.glb" 
                 alt="Model 5" ar ar-modes="webxr scene-viewer quick-look" 
                 animation-name="Walk" camera-controls autoplay 
@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 break;
             case 'image3':
                 newContent.innerHTML = `
-                <h2 class="title">Mid Content (Still in testing State)</h2>
+                <h2 class="title">Mid</h2>
                 <label for="model3">Choose a Champion:</label>
                 <select id="modelSelector3">
                     <option value="">Select</option>
@@ -93,13 +93,17 @@ document.addEventListener('DOMContentLoaded', function() {
                 break;
             case 'image4':
                 newContent.innerHTML = `
-                <h2 class="title">Bot Content</h2><p>You don't want to see me play this role.</p>`;
+                <h2 class="title">Bot</h2>
+                <p>You don't want to see me play this role.</p>
+                <p>Quite the opposite of Support, I will take all the CS :)</p>`;
                     //<model-viewer src="3dAnimated/sejuani.glb" alt="Model 4" ar ar-modes="webxr scene-viewer quick-look" camera-controls autoplay camera-orbit="0deg 90deg m"></model-viewer>
                     //<p>This is the content related to Image 5.</p>`
                 break;
             case 'image5':
                 newContent.innerHTML = `
-                <h2 class="title">Support Content</h2><p>You don't want to see me play this role.</p>`;
+                <h2 class="title">Support</h2>
+                <p>You don't want to see me play this role.</p>
+                <p>Quite the opposite of ADC/APC(Bot), I cannot CS :(</p>`;
                 break;
             // Add cases for more images here
             default:
