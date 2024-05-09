@@ -162,7 +162,7 @@ model-viewer::before {
     }
 }
 
-  @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
 
     .gallery-image {
         width: 150px;
@@ -179,6 +179,24 @@ model-viewer::before {
     .model-view-css-fix {
         height: -10%; /* Adjust height as needed */
         width: auto;
+    }
+
+    @keyframes slideToLeft {
+        0% {
+            transform: translateX(0); /* Start with no translation */
+        }
+        100% {
+            transform: translateX(-230px); /* Slide the container to the left (adjust as needed) */
+        }
+    }
+    
+    @keyframes slideToRight {
+        0% {
+            transform: translateX(0); /* Start with no translation */
+        }
+        100% {
+            transform: translateX(230px); /* Slide the container to the right (adjust as needed) */
+        }
     }
 
 }

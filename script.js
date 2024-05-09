@@ -10,47 +10,45 @@ document.addEventListener('DOMContentLoaded', function() {
     // Set initial opacity for side images
     adjustSideImagesOpacity();
 
-// Event listener for left arrow button
-leftArrow.addEventListener('click', function() {
-    // Apply slide to left animation
-    imageContainer.style.animation = 'slideToRight 0.4s ease-in-out';
-    // Wait for the animation to finish before proceeding
-    imageContainer.addEventListener('animationend', function onAnimationEnd() {
-        // Remove the event listener to prevent multiple executions
-        imageContainer.removeEventListener('animationend', onAnimationEnd);
-        // Reset animation
-        imageContainer.style.animation = '';
-        // Move the last image to the beginning of the list
-        const lastImage = document.querySelector('.image-container img:last-child');
-        imageContainer.insertBefore(lastImage, imageContainer.firstElementChild);
-        // Show content related to the new first image
-        showContent(document.querySelector('.image-container img:first-child').id);
-        // Adjust opacity for side images
-        adjustSideImagesOpacity();
+    // Event listener for left arrow button
+    leftArrow.addEventListener('click', function() {
+        // Apply slide to left animation
+        imageContainer.style.animation = 'slideToRight 0.4s ease-in-out';
+        // Wait for the animation to finish before proceeding
+        imageContainer.addEventListener('animationend', function onAnimationEnd() {
+            // Remove the event listener to prevent multiple executions
+            imageContainer.removeEventListener('animationend', onAnimationEnd);
+            // Reset animation
+            imageContainer.style.animation = '';
+            // Move the last image to the beginning of the list
+            const lastImage = document.querySelector('.image-container img:last-child');
+            imageContainer.insertBefore(lastImage, imageContainer.firstElementChild);
+            // Show content related to the new first image
+            showContent(document.querySelector('.image-container img:first-child').id);
+            // Adjust opacity for side images
+            adjustSideImagesOpacity();
+        });
     });
-});
 
-// Event listener for right arrow button
-rightArrow.addEventListener('click', function() {
-    // Apply slide to right animation
-    imageContainer.style.animation = 'slideToLeft 0.4s ease-in-out';
-    // Wait for the animation to finish before proceeding
-    imageContainer.addEventListener('animationend', function onAnimationEnd() {
-        // Remove the event listener to prevent multiple executions
-        imageContainer.removeEventListener('animationend', onAnimationEnd);
-        // Reset animation
-        imageContainer.style.animation = '';
-        // Move the first image to the end of the list
-        const firstImage = document.querySelector('.image-container img:first-child');
-        imageContainer.appendChild(firstImage);
-        // Show content related to the new first image
-        showContent(document.querySelector('.image-container img:first-child').id);
-        // Adjust opacity for side images
-        adjustSideImagesOpacity();
+    // Event listener for right arrow button
+    rightArrow.addEventListener('click', function() {
+        // Apply slide to right animation
+        imageContainer.style.animation = 'slideToLeft 0.4s ease-in-out';
+        // Wait for the animation to finish before proceeding
+        imageContainer.addEventListener('animationend', function onAnimationEnd() {
+            // Remove the event listener to prevent multiple executions
+            imageContainer.removeEventListener('animationend', onAnimationEnd);
+            // Reset animation
+            imageContainer.style.animation = '';
+            // Move the first image to the end of the list
+            const firstImage = document.querySelector('.image-container img:first-child');
+            imageContainer.appendChild(firstImage);
+            // Show content related to the new first image
+            showContent(document.querySelector('.image-container img:first-child').id);
+            // Adjust opacity for side images
+            adjustSideImagesOpacity();
+        });
     });
-});
-
-
 
     // Function to show content based on image ID
     function showContent(imageId) {
