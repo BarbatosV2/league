@@ -5,11 +5,29 @@ body {
 }
 
 .image-container {
-    padding: 20px;
     position: sticky;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+@keyframes slideToLeft {
+    0% {
+        transform: translateX(0); /* Start with no translation */
+    }
+    100% {
+        transform: translateX(-300px); /* Slide the container to the left (adjust as needed) */
+    }
+}
+
+@keyframes slideToRight {
+    0% {
+        transform: translateX(0); /* Start with no translation */
+    }
+    100% {
+        transform: translateX(300px); /* Slide the container to the right (adjust as needed) */
+    }
 }
 
 .arrow-image {
@@ -49,7 +67,7 @@ body {
     height: 200px;
     margin: 20px;
     transition: transform 0.3s ease-in-out;
-    opacity: 0.; /* Faded opacity for side images */
+    opacity: 0.1; /* Faded opacity for side images */
 }
 
 .map-container {
