@@ -162,7 +162,7 @@ model-viewer::before {
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1170px) {
 
     .gallery-image {
         width: 150px;
