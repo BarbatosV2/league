@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <select id="modelSelector1">
                         <option value="">Select</option>
                         <option value="project-warwick.glb">Warwick</option>
-                        <option value="sejuani.glb">Sejuani</option>
+                        <option value="solar-eclipse-sejuani.glb">Sejuani</option>
                     </select>
                     <div id="modelViewerContainer1"></div>
                     <div id="paragraphContainer1" class="paragraph-container1"></div>`;
@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function() {
             modelViewerContainer1.innerHTML = '';
             // Update model viewer container based on the selected model
             switch (selectedModel) {
-                case 'sejuani.glb':
+                case 'solar-eclipse-sejuani.glb':
                     // Set model viewer container content for Malzahar
                     modelViewerContainer1.innerHTML = `
                         <model-viewer src="3dAnimated/${selectedModel}" 
