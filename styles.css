@@ -12,7 +12,7 @@ body {
 }
 
 
-@keyframes slideToLeft {
+@keyframes slideToRight {
     0% {
         transform: translateX(0); /* Start with no translation */
     }
@@ -21,7 +21,7 @@ body {
     }
 }
 
-@keyframes slideToRight {
+@keyframes slideToLeft {
     0% {
         transform: translateX(0); /* Start with no translation */
     }
@@ -181,7 +181,7 @@ model-viewer::before {
         width: auto;
     }
 
-    @keyframes slideToLeft {
+    @keyframes slideToRight {
         0% {
             transform: translateX(0); /* Start with no translation */
         }
@@ -190,7 +190,7 @@ model-viewer::before {
         }
     }
     
-    @keyframes slideToRight {
+    @keyframes slideToLeft {
         0% {
             transform: translateX(0); /* Start with no translation */
         }

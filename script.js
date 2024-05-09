@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Event listener for left arrow button
     leftArrow.addEventListener('click', function() {
         // Apply slide to left animation
-        imageContainer.style.animation = 'slideToRight 0.4s ease-in-out';
+        imageContainer.style.animation = 'slideToLeft 0.4s ease-in-out';
         // Wait for the animation to finish before proceeding
         imageContainer.addEventListener('animationend', function onAnimationEnd() {
             // Remove the event listener to prevent multiple executions
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Event listener for right arrow button
     rightArrow.addEventListener('click', function() {
         // Apply slide to right animation
-        imageContainer.style.animation = 'slideToLeft 0.4s ease-in-out';
+        imageContainer.style.animation = 'slideToRight 0.4s ease-in-out';
         // Wait for the animation to finish before proceeding
         imageContainer.addEventListener('animationend', function onAnimationEnd() {
             // Remove the event listener to prevent multiple executions
