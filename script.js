@@ -75,6 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <label for="model2">Choose a Champion:</label>
                 <select id="modelSelector2">
                     <option value="dragon-knight-mordekaiser.glb" selected>Mordekaiser</option>
+                    <option value="the-thousand-pierced-bear.glb">Volibear</option>
                     <option value="elderwood-ornn.glb">Ornn</option>
                 </select>
                 <div id="modelViewerContainer2"></div>
@@ -134,10 +135,10 @@ document.addEventListener('DOMContentLoaded', function() {
                         <model-viewer src="3dAnimated/${selectedModel}" 
                         alt="Model" ar ar-modes="webxr scene-viewer quick-look" 
                         camera-controls 
-                        animation-name="Run3" autoplay>
+                        animation-name="sejuani_2013_taunt" autoplay>
                         </model-viewer>`;
                     paragraphContainer1.innerHTML = `
-                        <p>My Sejuani Playstyle.</p>
+                        <h2 class="champ-name">Sejuani</h2>
                         <p>Starts with W</p>
                         <p>I can finish the camps within 3:30 mins so just survive :P</p>
                         <h2 class="title">Jungle Pathing (Blue)</h2>
@@ -158,7 +159,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         animation-name="Taunt" autoplay>
                         </model-viewer>`;
                     paragraphContainer1.innerHTML = `
-                        <p>My Warwick Playstyle.</p>
+                        <h2 class="champ-name">Warwick</h2>
                         <p>Woof woof</p>
                         <p>I bite and heal</p>
                         <h2 class="title">Jungle Pathing (Blue)</h2>
@@ -196,7 +197,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         animation-name="Walk" autoplay>
                         </model-viewer>`;
                     paragraphContainer2.innerHTML = `
-                        <p>My Mordekaiser Playstyle.</p>
+                        <h2 class="champ-name">Mordekaiser</h2>
                         <p>Starts with Q</p>
                         <p>Bonk the enemy and kill them with my Passive :P</p>
                         <h2 class="title">Jungle Pathing (Blue)</h2>
@@ -208,6 +209,28 @@ document.addEventListener('DOMContentLoaded', function() {
                         <img src="map/Sejuani/LoLMap_Red.png" alt="LoLMap_Red">
                         </div>`;
                     break;
+                case 'the-thousand-pierced-bear.glb':
+                    // Set model viewer container content for Warwick
+                    modelViewerContainer2.innerHTML = `
+                        <model-viewer src="3dAnimated/${selectedModel}" 
+                        alt="Model" ar ar-modes="webxr scene-viewer quick-look" 
+                        camera-controls 
+                        camera-orbit="20deg 100deg"
+                        animation-name="Taunt" autoplay>
+                        </model-viewer>`;
+                    paragraphContainer2.innerHTML = `
+                        <h2 class="champ-name">Volibear</h2>
+                        <p>Starts with Q</p>
+                        <p>Objective, Survive</p>
+                        <h2 class="title">Jungle Pathing (Blue)</h2>
+                        <div class="map-container">
+                        <img src="map/Warwick/LoLMap_Blue.png" alt="LoLMap_Blue">
+                        </div>
+                        <h2 class="title">Jungle Pathing (Red)</h2>
+                        <div class="map-container">
+                        <img src="map/Warwick/LoLMap_Red.png" alt="LoLMap_Red">
+                        </div>`;
+                    break;
                 case 'elderwood-ornn.glb':
                     // Set model viewer container content for Warwick
                     modelViewerContainer2.innerHTML = `
@@ -217,7 +240,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         animation-name="Taunt" autoplay>
                         </model-viewer>`;
                     paragraphContainer2.innerHTML = `
-                        <p>My Ornn Playstyle.</p>
+                        <h2 class="champ-name">Ornn</h2>
                         <p>Starts with Q</p>
                         <p>Objective, Survive</p>
                         <h2 class="title">Jungle Pathing (Blue)</h2>
@@ -255,7 +278,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         animation-name="Dance" autoplay>
                         </model-viewer>`;
                     paragraphContainer3.innerHTML = `
-                        <p>My Malzahar Playstyle.</p>
+                        <h2 class="champ-name">Malzahar</h2>
                         <p>I turn off my brain</p>
                         <p>E W Q the wave, if Jungle come Flash (if necessary), E R the enemy champ</p>`;
                     break;
@@ -268,7 +291,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         animation-name="Idle1" autoplay>
                         </model-viewer>`;
                     paragraphContainer3.innerHTML = `
-                        <p>My Veigar Playstyle.</p>
+                        <h2 class="champ-name">Veigar</h2>
                         <p>I play the long game.</p>
                         <p>Stacking AP until I can one-shot anyone.</p>`;
                     break;
