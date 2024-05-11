@@ -62,14 +62,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 newContent.innerHTML = `
                     <h2 class="title">Jungle</h2>
                     <label for="model1">Choose a Champion:</label>
-                    <select id="modelSelector1">
-                        <option value="">Select</option>
+                    <select value="project-warwick.glb" id="modelSelector1">
                         <option value="project-warwick.glb">Warwick</option>
                         <option value="solar-eclipse-sejuani.glb">Sejuani</option>
                     </select>
                     <div id="modelViewerContainer1"></div>
                     <div id="paragraphContainer1" class="paragraph-container1"></div>`;
-            break;
+                break;
             case 'image2':
                 newContent.innerHTML = `
                 <h2 class="title">Top</h2>
@@ -85,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <label for="model3">Choose a Champion:</label>
                 <select id="modelSelector3">
                     <option value="">Select</option>
-                    <option value="hextech-malzahar.glb">Malzahar</option>
+                    <option value="hextech-malzahar.glb" selected>Malzahar</option>
                     <option value="veigar.glb">Veigar</option>
                 </select>
                 <div id="modelViewerContainer3"></div>
@@ -111,34 +110,24 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         // Append new content to the container
         contentContainer.appendChild(newContent);
-
+        // Show content based on the selected option
+        showSelectedModelContent();
     }
 
-    // Function to adjust opacity for side images
-    function adjustSideImagesOpacity() {
-        images.forEach(image => {
-            if (image === document.querySelector('.image-container img:nth-child(3)') || image.classList.contains('middle-image')) {
-                image.style.opacity = 1; // Full opacity for the middle image
-            } else {
-                image.style.opacity = 0.1; // Faded opacity for other images
-            }
-        });
-    }
-
-    // Add event listener for model selector
-    document.addEventListener('change', function(event) {
-        const modelSelector1 = event.target;
-        if (modelSelector1.id === 'modelSelector1') {
+    // Function to show content based on the selected model
+    function showSelectedModelContent() {
+        const modelSelector1 = document.getElementById('modelSelector1');
+        const modelSelector3 = document.getElementById('modelSelector3');
+        if (modelSelector1) {
             const selectedModel = modelSelector1.value;
             const modelViewerContainer1 = document.getElementById('modelViewerContainer1');
             const paragraphContainer1 = document.getElementById('paragraphContainer1');
-            
             // Clear model viewer container content
             modelViewerContainer1.innerHTML = '';
             // Update model viewer container based on the selected model
             switch (selectedModel) {
                 case 'solar-eclipse-sejuani.glb':
-                    // Set model viewer container content for Malzahar
+                    // Set model viewer container content for Sejuani
                     modelViewerContainer1.innerHTML = `
                         <model-viewer src="3dAnimated/${selectedModel}" 
                         alt="Model" ar ar-modes="webxr scene-viewer quick-look" 
@@ -159,7 +148,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         </div>`;
                     break;
                 case 'project-warwick.glb':
-                    // Set model viewer container content for Veigar
+                    // Set model viewer container content for Warwick
                     modelViewerContainer1.innerHTML = `
                         <model-viewer src="3dAnimated/${selectedModel}" 
                         alt="Model" ar ar-modes="webxr scene-viewer quick-look" 
@@ -188,12 +177,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     break;
             }
         }
-    });
-
-    // Add event listener for model selector
-    document.addEventListener('change', function(event) {
-        const modelSelector3 = event.target;
-        if (modelSelector3.id === 'modelSelector3') {
+        if (modelSelector3) {
             const selectedModel = modelSelector3.value;
             const modelViewerContainer3 = document.getElementById('modelViewerContainer3');
             const paragraphContainer3 = document.getElementById('paragraphContainer3');
@@ -236,6 +220,19 @@ document.addEventListener('DOMContentLoaded', function() {
                     break;
             }
         }
-    });
+    }
 
+    // Add event listener for model selector
+    document.addEventListener('change', showSelectedModelContent);
+
+    // Function to adjust opacity for side images
+    function adjustSideImagesOpacity() {
+        images.forEach(image => {
+            if (image === document.querySelector('.image-container img:nth-child(3)') || image.classList.contains('middle-image')) {
+                image.style.opacity = 1; // Full opacity for the middle image
+            } else {
+                image.style.opacity = 0.1; // Faded opacity for other images
+            }
+        });
+    }
 });
