@@ -91,6 +91,12 @@ body {
     text-align: center;
 }
 
+.champ-name {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Beaufort', sans-serif;
+}
+
 .gallery-image:hover {
     transform: scale(1.1);
 }
