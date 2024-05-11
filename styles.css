@@ -26,7 +26,7 @@ body {
         transform: translateX(0); /* Start with no translation */
     }
     100% {
-        transform: translateX(80px); /* Slide the container to the right (adjust as needed) */
+        transform: translateX(280px); /* Slide the container to the right (adjust as needed) */
     }
 }
 
