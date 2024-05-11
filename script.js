@@ -74,23 +74,27 @@ document.addEventListener('DOMContentLoaded', function() {
             case 'image2':
                 newContent.innerHTML = `
                 <h2 class="title">Top</h2>
+                <div class="champ-select">
                 <label for="model2">Choose a Champion:</label>
                 <select id="modelSelector2">
                     <option value="dragon-knight-mordekaiser.glb" selected>Mordekaiser</option>
                     <option value="the-thousand-pierced-bear.glb">Volibear</option>
                     <option value="elderwood-ornn.glb">Ornn</option>
                 </select>
+                </div>
                 <div id="modelViewerContainer2"></div>
                 <div id="paragraphContainer2" class="paragraph-container2"></div>`;
                 break;
             case 'image3':
                 newContent.innerHTML = `
                 <h2 class="title">Mid</h2>
+                <div class="champ-select">
                 <label for="model3">Choose a Champion:</label>
                 <select id="modelSelector3">
                     <option value="hextech-malzahar.glb" selected>Malzahar</option>
                     <option value="veigar.glb">Veigar</option>
                 </select>
+                </div>
                 <div id="modelViewerContainer3"></div>
                 <div id="paragraphContainer3" class="paragraph-container3"></div>`;
                 break;
