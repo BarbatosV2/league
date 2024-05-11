@@ -91,6 +91,10 @@ body {
     text-align: center;
 }
 
+.champ-select{
+    padding: 50px;
+}
+
 .champ-name {
     padding: 10px;
     text-align: center;
@@ -132,7 +136,7 @@ body {
 .model-view-css-fix{
     object-fit: cover;
     height: 80vh;
-    width:auto;  
+    width:auto; 
   }
   model-viewer {
     width: 50vh;

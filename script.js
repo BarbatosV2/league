@@ -61,11 +61,13 @@ document.addEventListener('DOMContentLoaded', function() {
             case 'image1':
                 newContent.innerHTML = `
                     <h2 class="title">Jungle</h2>
-                    <label for="model1">Choose a Champion:</label>
+                    <div class="champ-select">
+                    <label for="model1" >Choose a Champion:</label>
                     <select value="project-warwick.glb" id="modelSelector1">
                         <option value="project-warwick.glb">Warwick</option>
                         <option value="solar-eclipse-sejuani.glb">Sejuani</option>
                     </select>
+                    </div>
                     <div id="modelViewerContainer1"></div>
                     <div id="paragraphContainer1" class="paragraph-container1"></div>`;
                 break;
