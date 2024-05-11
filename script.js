@@ -72,18 +72,19 @@ document.addEventListener('DOMContentLoaded', function() {
             case 'image2':
                 newContent.innerHTML = `
                 <h2 class="title">Top</h2>
-                <model-viewer src="3dAnimated/dragon-knight-mordekaiser.glb" 
-                alt="Model 5" ar ar-modes="webxr scene-viewer quick-look" 
-                animation-name="Walk" camera-controls autoplay 
-                camera-orbit="0deg 90deg m"></model-viewer>
-                <p>This is the content related to Image 5.</p>`;
+                <label for="model2">Choose a Champion:</label>
+                <select id="modelSelector2">
+                    <option value="dragon-knight-mordekaiser.glb" selected>Mordekaiser</option>
+                    <option value="elderwood-ornn.glb">Ornn</option>
+                </select>
+                <div id="modelViewerContainer2"></div>
+                <div id="paragraphContainer2" class="paragraph-container2"></div>`;
                 break;
             case 'image3':
                 newContent.innerHTML = `
                 <h2 class="title">Mid</h2>
                 <label for="model3">Choose a Champion:</label>
                 <select id="modelSelector3">
-                    <option value="">Select</option>
                     <option value="hextech-malzahar.glb" selected>Malzahar</option>
                     <option value="veigar.glb">Veigar</option>
                 </select>
@@ -117,6 +118,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Function to show content based on the selected model
     function showSelectedModelContent() {
         const modelSelector1 = document.getElementById('modelSelector1');
+        const modelSelector2 = document.getElementById('modelSelector2');
         const modelSelector3 = document.getElementById('modelSelector3');
         if (modelSelector1) {
             const selectedModel = modelSelector1.value;
@@ -174,6 +176,65 @@ document.addEventListener('DOMContentLoaded', function() {
                     modelViewerContainer1.innerHTML = '';
                     // Clear paragraphs if no model matches
                     paragraphContainer1.innerHTML = '';
+                    break;
+            }
+        }
+        if (modelSelector2) {
+            const selectedModel = modelSelector2.value;
+            const modelViewerContainer2 = document.getElementById('modelViewerContainer2');
+            const paragraphContainer2 = document.getElementById('paragraphContainer2');
+            // Clear model viewer container content
+            modelViewerContainer2.innerHTML = '';
+            // Update model viewer container based on the selected model
+            switch (selectedModel) {
+                case 'dragon-knight-mordekaiser.glb':
+                    // Set model viewer container content for Sejuani
+                    modelViewerContainer2.innerHTML = `
+                        <model-viewer src="3dAnimated/${selectedModel}" 
+                        alt="Model" ar ar-modes="webxr scene-viewer quick-look" 
+                        camera-controls 
+                        animation-name="Walk" autoplay>
+                        </model-viewer>`;
+                    paragraphContainer2.innerHTML = `
+                        <p>My Mordekaiser Playstyle.</p>
+                        <p>Starts with Q</p>
+                        <p>Bonk the enemy and kill them with my Passive :P</p>
+                        <h2 class="title">Jungle Pathing (Blue)</h2>
+                        <div class="map-container">
+                        <img src="map/Sejuani/LoLMap_Blue.png" alt="LoLMap_Blue">
+                        </div>
+                        <h2 class="title">Jungle Pathing (Red)</h2>
+                        <div class="map-container">
+                        <img src="map/Sejuani/LoLMap_Red.png" alt="LoLMap_Red">
+                        </div>`;
+                    break;
+                case 'elderwood-ornn.glb':
+                    // Set model viewer container content for Warwick
+                    modelViewerContainer2.innerHTML = `
+                        <model-viewer src="3dAnimated/${selectedModel}" 
+                        alt="Model" ar ar-modes="webxr scene-viewer quick-look" 
+                        camera-controls 
+                        animation-name="Taunt" autoplay>
+                        </model-viewer>`;
+                    paragraphContainer2.innerHTML = `
+                        <p>My Ornn Playstyle.</p>
+                        <p>Starts with Q</p>
+                        <p>Objective, Survive</p>
+                        <h2 class="title">Jungle Pathing (Blue)</h2>
+                        <div class="map-container">
+                        <img src="map/Warwick/LoLMap_Blue.png" alt="LoLMap_Blue">
+                        </div>
+                        <h2 class="title">Jungle Pathing (Red)</h2>
+                        <div class="map-container">
+                        <img src="map/Warwick/LoLMap_Red.png" alt="LoLMap_Red">
+                        </div>`;
+                    break;
+                // Add cases for other models here
+                default:
+                    // Clear model viewer container content if no model matches
+                    modelViewerContainer2.innerHTML = '';
+                    // Clear paragraphs if no model matches
+                    paragraphContainer2.innerHTML = '';
                     break;
             }
         }

@@ -120,23 +120,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto;
+    height: 60vh;
 }
 
 .model-view-css-fix{
-    object-fit: contain;
+    object-fit: cover;
     height: 80vh;
     width:auto;  
   }
   model-viewer {
-    width: 40vh;
+    width: 50vh;
     height: 40vh;
     margin: auto;
     position: relative; /* Ensure the background image is positioned relative to the model viewer */
     background-image: url(icons/boarder.png), url(icons/vp_progression_frame.png);
-    background-size: 95%; /* Adjust the size as needed */
+    background-size: 75%; /* Adjust the size as needed */
     background-repeat: no-repeat;
     background-position: center;
+    /*Debugging Boarder
+    border: 2px solid #F0E6D2; Add a border around the model viewer 
+    box-sizing: border-box; Ensure the border is included in the width and height */
 }
 
 model-viewer::before {
@@ -147,7 +150,7 @@ model-viewer::before {
     width: 100%;
     height: 100%;
     background-image: url(icons/dash_circle.svg);
-    background-size: 85%;
+    background-size: 68%;
     background-repeat: no-repeat;
     background-position: center;
     animation: rotateBackground 30s linear infinite; /* Adjust duration and timing function as needed */
