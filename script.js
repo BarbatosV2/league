@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 newContent.innerHTML = `
                 <h2 class="title">Bot</h2>
                 <p class="para">You don't want to see me play this role.</p>
-                <p class="para">Quite the opposite of Support, I will take all the CS :)</p>`;
+                <p class="para">Quite the opposite of Support, I cannot CS :( </p>`;
                     //<model-viewer src="3dAnimated/sejuani.glb" alt="Model 4" ar ar-modes="webxr scene-viewer quick-look" camera-controls autoplay camera-orbit="0deg 90deg m"></model-viewer>
                     //<p>This is the content related to Image 5.</p>`
                 break;
@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 newContent.innerHTML = `
                 <h2 class="title">Support</h2>
                 <p class="para">You don't want to see me play this role.</p>
-                <p class="para">Quite the opposite of ADC/APC(Bot), I cannot CS :(</p>`;
+                <p class="para">Quite the opposite of ADC/APC(Bot), I will take all the CS :)</p>`;
                 break;
             // Add cases for more images here
             default:
