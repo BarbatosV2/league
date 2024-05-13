@@ -101,16 +101,16 @@ document.addEventListener('DOMContentLoaded', function() {
             case 'image4':
                 newContent.innerHTML = `
                 <h2 class="title">Bot</h2>
-                <p>You don't want to see me play this role.</p>
-                <p>Quite the opposite of Support, I will take all the CS :)</p>`;
+                <p class="para">You don't want to see me play this role.</p>
+                <p class="para">Quite the opposite of Support, I will take all the CS :)</p>`;
                     //<model-viewer src="3dAnimated/sejuani.glb" alt="Model 4" ar ar-modes="webxr scene-viewer quick-look" camera-controls autoplay camera-orbit="0deg 90deg m"></model-viewer>
                     //<p>This is the content related to Image 5.</p>`
                 break;
             case 'image5':
                 newContent.innerHTML = `
                 <h2 class="title">Support</h2>
-                <p>You don't want to see me play this role.</p>
-                <p>Quite the opposite of ADC/APC(Bot), I cannot CS :(</p>`;
+                <p class="para">You don't want to see me play this role.</p>
+                <p class="para">Quite the opposite of ADC/APC(Bot), I cannot CS :(</p>`;
                 break;
             // Add cases for more images here
             default:
@@ -145,8 +145,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         </model-viewer>`;
                     paragraphContainer1.innerHTML = `
                         <h2 class="champ-name">Sejuani</h2>
-                        <p>Starts with W</p>
-                        <p>I can finish the camps within 3:30 mins so just survive :P</p>
+                        <p class="para">Starts with W</p>
+                        <p class="para">I can finish the camps within 3:30 mins so just survive :P</p>
                         <h2 class="title">Jungle Pathing (Blue)</h2>
                         <div class="map-container">
                         <img src="map/Sejuani/LoLMap_Blue.png" alt="LoLMap_Blue">
@@ -166,8 +166,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         </model-viewer>`;
                     paragraphContainer1.innerHTML = `
                         <h2 class="champ-name">Warwick</h2>
-                        <p>Woof woof</p>
-                        <p>I bite and heal</p>
+                        <p class="para">Woof woof</p>
+                        <p class="para">I bite and heal</p>
                         <h2 class="title">Jungle Pathing (Blue)</h2>
                         <div class="map-container">
                         <img src="map/Warwick/LoLMap_Blue.png" alt="LoLMap_Blue">
@@ -204,8 +204,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         </model-viewer>`;
                     paragraphContainer2.innerHTML = `
                         <h2 class="champ-name">Mordekaiser</h2>
-                        <p>Starts with Q</p>
-                        <p>Bonk the enemy and kill them with my Passive :P</p>
+                        <p class="para">Starts with Q</p>
+                        <p class="para">Bonk the enemy and kill them with my Passive :P</p>
                         <h2 class="title">Priority</h2>
                         <div class="map-container">
                         <img src="map/Top/LoLMap_Prio.png" alt="LoLMap_Prio">
@@ -226,8 +226,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         </model-viewer>`;
                     paragraphContainer2.innerHTML = `
                         <h2 class="champ-name">Volibear</h2>
-                        <p>Starts with Q</p>
-                        <p>Objective, Survive</p>
+                        <p class="para">Starts with Q</p>
+                        <p class="para">Objective, Survive</p>
                         <h2 class="title">Priority</h2>
                         <div class="map-container">
                         <img src="map/Top/LoLMap_Prio.png" alt="LoLMap_Prio">
@@ -247,8 +247,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         </model-viewer>`;
                     paragraphContainer2.innerHTML = `
                         <h2 class="champ-name">Ornn</h2>
-                        <p>Starts with Q</p>
-                        <p>Objective, Survive</p>
+                        <p class="para">Starts with Q</p>
+                        <p class="para">Objective, Survive</p>
                         <h2 class="title">Priority</h2>
                         <div class="map-container">
                         <img src="map/Top/LoLMap_Prio.png" alt="LoLMap_Prio">
@@ -285,8 +285,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         </model-viewer>`;
                     paragraphContainer3.innerHTML = `
                         <h2 class="champ-name">Malzahar</h2>
-                        <p>I turn off my brain</p>
-                        <p>E W Q the wave, if Jungle come Flash (if necessary), E R the enemy champ</p>
+                        <p class="para">I turn off my brain</p>
+                        <p class="para">E W Q the wave, if Jungle come Flash (if necessary), E R the enemy champ</p>
                         <h2 class="title">Priority</h2>
                         <div class="map-container">
                         <img src="map/Mid/LoLMap_Prio.png" alt="LoLMap_Prio">
@@ -388,8 +388,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         </model-viewer>`;
                     paragraphContainer3.innerHTML = `
                         <h2 class="champ-name">Veigar</h2>
-                        <p>I play the long game.</p>
-                        <p>Stacking AP until I can one-shot anyone.</p>
+                        <p class="para">I play the long game.</p>
+                        <p class="para">Stacking AP until I can one-shot anyone.</p>
                         <h2 class="title">Priority</h2>
                         <div class="map-container">
                         <img src="map/Mid/LoLMap_Prio.png" alt="LoLMap_Prio">
