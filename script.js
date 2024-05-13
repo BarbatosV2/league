@@ -286,7 +286,93 @@ document.addEventListener('DOMContentLoaded', function() {
                     paragraphContainer3.innerHTML = `
                         <h2 class="champ-name">Malzahar</h2>
                         <p>I turn off my brain</p>
-                        <p>E W Q the wave, if Jungle come Flash (if necessary), E R the enemy champ</p>`;
+                        <p>E W Q the wave, if Jungle come Flash (if necessary), E R the enemy champ</p>
+                        <h2 class="title">Priority</h2>
+                        <div class="map-container">
+                        <img src="map/Mid/LoLMap_Prio.png" alt="LoLMap_Prio">
+                        </div>
+                        <h2 class="title">Counter</h2>
+                        <div class="map-container">
+                        <img src="map/Mid/LoLMap_Counter.png" alt="LoLMap_Counter">
+                        </div>
+                        <h2 class="title">Spells</h2>
+                        <div class="spells">
+                            <div class="spell-image">
+                                <img src="ChampSpells/Malzahar/E.jpg" alt="E">
+                                <div class="label">E</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Malzahar/Q.jpg" alt="Q">
+                                <div class="label">Q</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Malzahar/W.jpg" alt="W">
+                                <div class="label">W</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Malzahar/E.jpg" alt="E">
+                                <div class="label">E</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Malzahar/E.jpg" alt="E">
+                                <div class="label">E</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Malzahar/R.jpg" alt="R">
+                                <div class="label">R</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Malzahar/E.jpg" alt="E">
+                                <div class="label">E</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Malzahar/W.jpg" alt="W">
+                                <div class="label">W</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Malzahar/E.jpg" alt="E">
+                                <div class="label">E</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Malzahar/W.jpg" alt="W">
+                                <div class="label">W</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Malzahar/R.jpg" alt="R">
+                                <div class="label">R</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Malzahar/W.jpg" alt="W">
+                                <div class="label">W</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Malzahar/W.jpg" alt="W">
+                                <div class="label">W</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Malzahar/Q.jpg" alt="Q">
+                                <div class="label">Q</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Malzahar/Q.jpg" alt="Q">
+                                <div class="label">Q</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Malzahar/R.jpg" alt="R">
+                                <div class="label">R</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Malzahar/Q.jpg" alt="Q">
+                                <div class="label">Q</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Malzahar/Q.jpg" alt="Q">
+                                <div class="label">Q</div>
+                            </div>
+        
+                            <!-- Repeat the above structure for other images -->
+                            <!-- Add more <div class="image"> elements for each image -->
+                            </div>`;
                     break;
                 case 'veigar.glb':
                     // Set model viewer container content for Veigar
@@ -299,7 +385,15 @@ document.addEventListener('DOMContentLoaded', function() {
                     paragraphContainer3.innerHTML = `
                         <h2 class="champ-name">Veigar</h2>
                         <p>I play the long game.</p>
-                        <p>Stacking AP until I can one-shot anyone.</p>`;
+                        <p>Stacking AP until I can one-shot anyone.</p>
+                        <h2 class="title">Priority</h2>
+                        <div class="map-container">
+                        <img src="map/Mid/LoLMap_Prio.png" alt="LoLMap_Prio">
+                        </div>
+                        <h2 class="title">Counter</h2>
+                        <div class="map-container">
+                        <img src="map/Mid/LoLMap_Counter.png" alt="LoLMap_Counter">
+                        </div>`;
                     break;
                 // Add cases for other models here
                 default:
