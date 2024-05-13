@@ -206,13 +206,13 @@ document.addEventListener('DOMContentLoaded', function() {
                         <h2 class="champ-name">Mordekaiser</h2>
                         <p>Starts with Q</p>
                         <p>Bonk the enemy and kill them with my Passive :P</p>
-                        <h2 class="title">Jungle Pathing (Blue)</h2>
+                        <h2 class="title">Priority</h2>
                         <div class="map-container">
-                        <img src="map/Sejuani/LoLMap_Blue.png" alt="LoLMap_Blue">
+                        <img src="map/Top/LoLMap_Prio.png" alt="LoLMap_Prio">
                         </div>
-                        <h2 class="title">Jungle Pathing (Red)</h2>
+                        <h2 class="title">Counter</h2>
                         <div class="map-container">
-                        <img src="map/Sejuani/LoLMap_Red.png" alt="LoLMap_Red">
+                        <img src="map/Top/LoLMap_Counter.png" alt="LoLMap_Counter">
                         </div>`;
                     break;
                 case 'the-thousand-pierced-bear.glb':
@@ -228,13 +228,13 @@ document.addEventListener('DOMContentLoaded', function() {
                         <h2 class="champ-name">Volibear</h2>
                         <p>Starts with Q</p>
                         <p>Objective, Survive</p>
-                        <h2 class="title">Jungle Pathing (Blue)</h2>
+                        <h2 class="title">Priority</h2>
                         <div class="map-container">
-                        <img src="map/Warwick/LoLMap_Blue.png" alt="LoLMap_Blue">
+                        <img src="map/Top/LoLMap_Prio.png" alt="LoLMap_Prio">
                         </div>
-                        <h2 class="title">Jungle Pathing (Red)</h2>
+                        <h2 class="title">Counter</h2>
                         <div class="map-container">
-                        <img src="map/Warwick/LoLMap_Red.png" alt="LoLMap_Red">
+                        <img src="map/Top/LoLMap_Counter.png" alt="LoLMap_Counter">
                         </div>`;
                     break;
                 case 'elderwood-ornn.glb':
@@ -249,13 +249,13 @@ document.addEventListener('DOMContentLoaded', function() {
                         <h2 class="champ-name">Ornn</h2>
                         <p>Starts with Q</p>
                         <p>Objective, Survive</p>
-                        <h2 class="title">Jungle Pathing (Blue)</h2>
+                        <h2 class="title">Priority</h2>
                         <div class="map-container">
-                        <img src="map/Warwick/LoLMap_Blue.png" alt="LoLMap_Blue">
+                        <img src="map/Top/LoLMap_Prio.png" alt="LoLMap_Prio">
                         </div>
-                        <h2 class="title">Jungle Pathing (Red)</h2>
+                        <h2 class="title">Counter</h2>
                         <div class="map-container">
-                        <img src="map/Warwick/LoLMap_Red.png" alt="LoLMap_Red">
+                        <img src="map/Top/LoLMap_Counter.png" alt="LoLMap_Counter">
                         </div>`;
                     break;
                 // Add cases for other models here
