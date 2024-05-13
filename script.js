@@ -371,8 +371,12 @@ document.addEventListener('DOMContentLoaded', function() {
                             </div>
         
                             <!-- Repeat the above structure for other images -->
-                            <!-- Add more <div class="image"> elements for each image -->
-                            </div>`;
+                            <!-- Add more <div class="spell-image"> elements for each image -->
+                            </div>
+
+                            <h2 class="title">Runes</h2>
+                            <h3 class="title">Primary Rune</h3>
+                            <h3 class="title">Secondary Rune</h3>`;
                     break;
                 case 'veigar.glb':
                     // Set model viewer container content for Veigar
