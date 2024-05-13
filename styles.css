@@ -90,6 +90,10 @@ body {
     text-align: center;
 }
 
+.para {
+    text-align: center;
+}
+
 .champ-select{
     padding: 40px;
 }
@@ -183,11 +187,11 @@ model-viewer::before {
 .spell-image {
     margin-right: 10px;
     text-align: center;
-
 }
 
 .spell-image img {
     width: 50px;
+    border: 2px solid #7b37c8; /* Add a 2px solid black border to the image */
 }
 
 .label {
