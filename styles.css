@@ -170,6 +170,34 @@ model-viewer::before {
     animation: rotateBackground 30s linear infinite; /* Adjust duration and timing function as needed */
 }
 
+.rune-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(5, auto); /* Set to 5 rows */
+    grid-gap: 20px;
+    justify-content: center;
+  }
+
+.rune-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rune-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.rune-image {
+    margin: 0 10px;
+}
+
+.rune-unselect {
+    opacity: 0.1;
+}
+
 @keyframes rotateBackground {
     from {
         transform: rotate(0deg);
@@ -192,7 +220,7 @@ model-viewer::before {
 
 .spell-image img {
     width: 50px;
-    border: 2px solid #7b37c8; /* Add a 2px solid black border to the image */
+    border: 2px solid #C89B3C; /* #7b37c8 Add a 2px solid black border to the image */
 }
 
 .label {

@@ -175,7 +175,114 @@ document.addEventListener('DOMContentLoaded', function() {
                         <h2 class="title">Jungle Pathing (Red)</h2>
                         <div class="map-container">
                         <img src="map/Warwick/LoLMap_Red.png" alt="LoLMap_Red">
-                        </div>`;
+                        </div>
+                        <h2 class="title">Spells</h2>
+                        <div class="spells">
+                            <div class="spell-image">
+                                <img src="ChampSpells/Warwick/Q.jpg" alt="Q">
+                                <div class="label">Q</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Warwick/W.jpg" alt="W">
+                                <div class="label">W</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Warwick/E.jpg" alt="E">
+                                <div class="label">W</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Warwick/W.jpg" alt="W">
+                                <div class="label">E</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Warwick/W.jpg" alt="W">
+                                <div class="label">E</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Warwick/R.jpg" alt="R">
+                                <div class="label">R</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Warwick/W.jpg" alt="W">
+                                <div class="label">W</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Warwick/Q.jpg" alt="Q">
+                                <div class="label">Q</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Warwick/W.jpg" alt="W">
+                                <div class="label">W</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Warwick/Q.jpg" alt="Q">
+                                <div class="label">Q</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Warwick/R.jpg" alt="R">
+                                <div class="label">R</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Warwick/Q.jpg" alt="Q">
+                                <div class="label">Q</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Warwick/Q.jpg" alt="Q">
+                                <div class="label">Q</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Warwick/E.jpg" alt="E">
+                                <div class="label">E</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Warwick/E.jpg" alt="E">
+                                <div class="label">E</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Warwick/R.jpg" alt="R">
+                                <div class="label">R</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Warwick/E.jpg" alt="E">
+                                <div class="label">E</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Warwick/E.jpg" alt="E">
+                                <div class="label">E</div>
+                            </div>
+        
+                            <!-- Repeat the above structure for other images -->
+                            <!-- Add more <div class="spell-image"> elements for each image -->
+                            </div>
+                            <h2 class="title">Runes</h2>
+                            <h3 class="title">Primary Rune</h3>
+                            <div class="rune-container">
+                            <div class="rune-row">
+                              <img class="rune-image" src="Runes/Precision/Precision_icon.webp">
+                            </div>
+                            <div class="rune-row">
+                              <img class="rune-image" src="Runes/Precision/Press_the_Attack_rune.webp">
+                              <img class="rune-image rune-unselect" src="Runes/Precision/Lethal_Tempo_rune.webp">
+                              <img class="rune-image rune-unselect" src="Runes/Precision/Fleet_Footwork_rune.webp">
+                              <img class="rune-image rune-unselect" src="Runes/Precision/Conqueror_rune.webp">
+                            </div>
+                            <div class="rune-row">
+                              <img class="rune-image rune-unselect" src="Runes/Precision/Overheal_rune.webp">
+                              <img class="rune-image" src="Runes/Precision/Triumph_rune.webp">
+                              <img class="rune-image rune-unselect" src="Runes/Precision/Presence_of_Mind_rune.webp">
+                            </div>
+                            <div class="rune-row">
+                              <img class="rune-image" src="Runes/Precision/Legend-_Alacrity_rune.webp">
+                              <img class="rune-image rune-unselect" src="Runes/Precision/Legend-_Tenacity_rune.webp">
+                              <img class="rune-image rune-unselect" src="Runes/Precision/Legend-_Bloodline_rune.webp">
+                            </div>
+                            <div class="rune-row">
+                              <img class="rune-image rune-unselect" src="Runes/Precision/Coup_de_Grace_rune.webp">
+                              <img class="rune-image rune-unselect" src="Runes/Precision/Cut_Down_rune.webp">
+                              <img class="rune-image" src="Runes/Precision/Last_Stand_rune.webp">
+                            </div>
+                          </div>
+                            <h3 class="title">Secondary Rune</h3>`;
                     break;
                 // Add cases for other models here
                 default:
