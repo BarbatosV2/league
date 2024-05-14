@@ -321,6 +321,12 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <img class="rune-image rune-unselect" src="Runes/Shards/Tenacity_and_Slow_Resist.webp">
                                 <img class="rune-image" src="Runes/Shards/Health_Scaling.webp">
                             </div>
+                        </div>
+                        <h2 class="title">Items</h2>
+                        <h3 class="title">Initial State</h3>
+                        <div class="rune-row">
+                            <img class="rune-image item" src="items/jungle/Gustwalker.webp">
+                            <img class="rune-image item" src="items/potions/Health_Potion.webp">
                         </div>`;
                     break;
                 // Add cases for other models here
