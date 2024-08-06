@@ -379,7 +379,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         paragraphContainer2.innerHTML = `
                             <h2 class="champ-name">Rumble</h2>
                             <p class="para">Starts with Q</p>
-                            <p class="para">Fire Yeahhh.... Burnnnn 🔥🔥🔥</p>
+                            <p class="para">🔥Fiery Spirit of the Yordle Inferno!🔥</p>
                             <h2 class="title">Priority</h2>
                             <div class="map-container">
                             <img src="map/Top/LoLMap_Prio.png" alt="LoLMap_Prio">
