@@ -78,6 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <label for="model2">Choose a Champion:</label>
                 <select id="modelSelector2">
                     <option value="dragon-knight-mordekaiser.glb" selected>Mordekaiser</option>
+                    <option value="badlands_baron_rumble.glb">Rumble</option>
                     <option value="the-thousand-pierced-bear.glb">Volibear</option>
                     <option value="elderwood-ornn.glb">Ornn</option>
                 </select>
@@ -367,6 +368,27 @@ document.addEventListener('DOMContentLoaded', function() {
                         <img src="map/Top/LoLMap_Counter.png" alt="LoLMap_Counter">
                         </div>`;
                     break;
+                    case 'badlands_baron_rumble.glb':
+                        // Set model viewer container content for Sejuani
+                        modelViewerContainer2.innerHTML = `
+                            <model-viewer src="3dAnimated/${selectedModel}" 
+                            alt="Model" ar ar-modes="webxr scene-viewer quick-look" 
+                            camera-controls 
+                            animation-name="Idle2" autoplay>
+                            </model-viewer>`;
+                        paragraphContainer2.innerHTML = `
+                            <h2 class="champ-name">Rumble</h2>
+                            <p class="para">Starts with Q</p>
+                            <p class="para">Fire Yeahhh.... Burnnnn 🔥🔥🔥</p>
+                            <h2 class="title">Priority</h2>
+                            <div class="map-container">
+                            <img src="map/Top/LoLMap_Prio.png" alt="LoLMap_Prio">
+                            </div>
+                            <h2 class="title">Counter</h2>
+                            <div class="map-container">
+                            <img src="map/Top/LoLMap_Counter.png" alt="LoLMap_Counter">
+                            </div>`;
+                        break;
                 case 'the-thousand-pierced-bear.glb':
                     // Set model viewer container content for Warwick
                     modelViewerContainer2.innerHTML = `
@@ -526,9 +548,78 @@ document.addEventListener('DOMContentLoaded', function() {
                             <!-- Add more <div class="spell-image"> elements for each image -->
                             </div>
 
-                            <h2 class="title">Runes</h2>
-                            <h3 class="title">Primary Rune</h3>
-                            <h3 class="title">Secondary Rune</h3>`;
+                        <h2 class="title">Runes</h2>
+                        <h3 class="title">Primary Rune</h3>
+                        <div class="rune-container">
+                            <div class="rune-row">
+                                <img class="rune-image" src="Runes/Sorcery/Sorcery_icon.webp">
+                            </div>
+                            <div class="rune-row">
+                                <img class="rune-image" src="Runes/Sorcery/Summon_Aery_rune.webp">
+                                <img class="rune-image rune-unselect" src="Runes/Sorcery/Arcane_Comet_rune.webp">
+                                <img class="rune-image rune-unselect" src="Runes/Sorcery/Phase_Rush_rune.webp">
+                            </div>
+                            <div class="rune-row">
+                                <img class="rune-image rune-unselect" src="Runes/Sorcery/Nullifying_Orb_rune.webp">
+                                <img class="rune-image" src="Runes/Sorcery/Manaflow_Band_rune.webp">
+                                <img class="rune-image rune-unselect" src="Runes/Sorcery/Nimbus_Cloak_rune.webp">
+                            </div>
+                            <div class="rune-row">
+                                <img class="rune-image" src="Runes/Sorcery/Transcendence_rune.webp">
+                                <img class="rune-image rune-unselect" src="Runes/Sorcery/Celerity_rune.webp">
+                                <img class="rune-image rune-unselect" src="Runes/Sorcery/Absolute_Focus_rune.webp">
+                            </div>
+                            <div class="rune-row">
+                                <img class="rune-image" src="Runes/Sorcery/Scorch_rune.webp">
+                                <img class="rune-image rune-unselect" src="Runes/Sorcery/Waterwalking_rune.webp">
+                                <img class="rune-image rune-unselect" src="Runes/Sorcery/Gathering_Storm_rune.webp">
+                            </div>
+                        </div>
+                        <h3 class="title">Secondary Rune</h3>
+                        <div class="rune-container">
+                            <div class="rune-row">
+                                <img class="rune-image" src="Runes/Inspiration/Inspiration_icon.webp">
+                            </div>
+                            <div class="rune-row">
+                                <img class="rune-image rune-unselect" src="Runes/Inspiration/Hextech_Flashtraption_rune.webp">
+                                <img class="rune-image" src="Runes/Inspiration/Magical_Footwear_rune.webp">
+                                <img class="rune-image rune-unselect" src="Runes/Inspiration/Cash_Back_rune.webp">
+                            </div>
+                            <div class="rune-row">
+                                <img class="rune-image rune-unselect" src="Runes/Inspiration/Triple_Tonic_rune.webp">
+                                <img class="rune-image rune-unselect" src="Runes/Inspiration/Time_Warp_Tonic_rune.webp">
+                                <img class="rune-image rune-unselect" src="Runes/Inspiration/Biscuit_Delivery_rune.webp">
+                            </div>
+                            <div class="rune-row">
+                                <img class="rune-image rune-unselect" src="Runes/Inspiration/Cosmic_Insight_rune.webp">
+                                <img class="rune-image" src="Runes/Inspiration/Approach_Velocity_rune.webp">
+                                <img class="rune-image rune-unselect" src="Runes/Inspiration/Jack_of_All_Trades_rune.webp">
+                            </div>
+                        </div>
+                        <h3 class="title">Shards</h3>
+                        <div class="rune-container">
+                            <div class="rune-row">
+                                <img class="rune-image" src="Runes/Shards/Adaptive_Force.webp">
+                                <img class="rune-image rune-unselect" src="Runes/Shards/Attack_Speed.webp">
+                                <img class="rune-image rune-unselect" src="Runes/Shards/Cooldown_Reduction.webp">
+                            </div>
+                            <div class="rune-row">
+                                <img class="rune-image" src="Runes/Shards/Adaptive_Force.webp">
+                                <img class="rune-image rune-unselect" src="Runes/Shards/Movement_Speed.webp">
+                                <img class="rune-image rune-unselect" src="Runes/Shards/Health_Scaling.webp">
+                            </div>
+                            <div class="rune-row">
+                                <img class="rune-image rune-unselect" src="Runes/Shards/Health.webp">
+                                <img class="rune-image rune-unselect" src="Runes/Shards/Tenacity_and_Slow_Resist.webp">
+                                <img class="rune-image" src="Runes/Shards/Health_Scaling.webp">
+                            </div>
+                        </div>
+                        <h2 class="title">Items</h2>
+                        <h3 class="title">Initial State</h3>
+                        <div class="rune-row">
+                            <img class="rune-image item" src="items/doran/Doran_Ring.webp">
+                            <img class="rune-image item" src="items/potions/Health_Potion.webp">
+                        </div>`;
                     break;
                 case 'veigar.glb':
                     // Set model viewer container content for Veigar
