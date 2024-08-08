@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="spells">
                             <div class="spell-image">
                                 <img src="ChampSpells/Sejuani/E.webp" alt="E">
-                                <div class="label">Q</div>
+                                <div class="label">E</div>
                             </div>
                             <div class="spell-image">
                                 <img src="ChampSpells/Sejuani/W.webp" alt="W">
@@ -168,15 +168,15 @@ document.addEventListener('DOMContentLoaded', function() {
                             </div>
                             <div class="spell-image">
                                 <img src="ChampSpells/Sejuani/Q.webp" alt="Q">
+                                <div class="label">Q</div>
+                            </div>
+                            <div class="spell-image">
+                                <img src="ChampSpells/Sejuani/W.webp" alt="W">
                                 <div class="label">W</div>
                             </div>
                             <div class="spell-image">
                                 <img src="ChampSpells/Sejuani/W.webp" alt="W">
-                                <div class="label">E</div>
-                            </div>
-                            <div class="spell-image">
-                                <img src="ChampSpells/Sejuani/W.webp" alt="W">
-                                <div class="label">E</div>
+                                <div class="label">W</div>
                             </div>
                             <div class="spell-image">
                                 <img src="ChampSpells/Sejuani/R.webp" alt="R">
