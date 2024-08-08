@@ -252,7 +252,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             </div>
                             <div class="rune-row">
                                 <img class="rune-image" src="Runes/Resolve/Conditioning_rune.webp">
-                                <img class="rune-image rune-unselect" src="Runes/Resolve/Second_wind_rune.webp">
+                                <img class="rune-image rune-unselect" src="Runes/Resolve/Second_Wind_rune.webp">
                                 <img class="rune-image rune-unselect" src="Runes/Resolve/Bone_Plating_rune.webp">
                             </div>
                             <div class="rune-row">
