@@ -1,0 +1,15 @@
+/* map.css */
+.map-container {
+    width: 300px; /* Set the width of the container */
+    height: 300px; /* Set the height of the container */
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-container img {
+    max-width: 100%;
+    max-height: 100%;
+}

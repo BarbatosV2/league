@@ -1,0 +1,61 @@
+/* responsive.css */
+@media only screen and (max-width: 1170px) {
+    .gallery-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .model-viewer-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .model-view-css-fix {
+        height: -10%; /* Adjust height as needed */
+        width: auto;
+    }
+
+    model-viewer {
+        width: 40vh;
+        height: 30vh;
+    }
+
+    .spell-image {
+        width: 40px;
+        margin-right: 5px;
+        text-align: center;
+    }
+
+    .spell-image img {
+        width: 40px; /* Smaller spell image size for mobile */
+        border: 2px solid #C89B3C;
+    }
+
+    .rune-container {
+        flex-direction: column;
+    }
+
+    .rune-row {
+        margin-bottom: 15px;
+    }
+
+    @keyframes slideToRight {
+        0% {
+            transform: translateX(0); /* Start with no translation */
+        }
+        100% {
+            transform: translateX(-230px); /* Slide the container to the left (adjust as needed) */
+        }
+    }
+
+    @keyframes slideToLeft {
+        0% {
+            transform: translateX(0); /* Start with no translation */
+        }
+        100% {
+            transform: translateX(230px); /* Slide the container to the right (adjust as needed) */
+        }
+    }
+}

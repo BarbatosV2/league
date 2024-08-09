@@ -1,0 +1,51 @@
+/* runes-spells.css */
+
+/* Rune Container Styles */
+.rune-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rune-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.rune-image {
+    margin: 0 10px;
+}
+
+.rune-unselect {
+    opacity: 0.1;
+}
+
+/* Spell Styles */
+.spells {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.spell-image {
+    margin: 10px; /* Adjust margin for spacing */
+    text-align: center;
+}
+
+.spell-image img {
+    width: 50px;
+    border: 2px solid #C89B3C; /* Border for the spell images */
+    border-radius: 5px; /* Slight rounding of corners for aesthetics */
+}
+
+.label {
+    margin-top: 5px;
+    color: #F0E6D2; /* Match font color to overall theme */
+    font-size: 12px; /* Adjust font size for labels */
+}
+
+.item {
+    border: 2px solid #C89B3C;
+    border-radius: 5px; /* Slight rounding for item images */
+}

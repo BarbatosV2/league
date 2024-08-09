@@ -1,0 +1,59 @@
+/* gallery.css */
+.image-container {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-image {
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    transition: transform 0.3s ease-in-out;
+    opacity: 0.1; /* Faded opacity for side images */
+}
+
+.gallery-image:hover {
+    transform: scale(1.1);
+}
+
+.arrow-image {
+    position: absolute;
+    top: 200px;
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    cursor: pointer;
+    z-index: 1;
+}
+
+.arrow-image:hover {
+    transform: scale(1.1);
+}
+
+.left {
+    left: 10px;
+}
+
+.right {
+    right: 10px;
+}
+
+@keyframes slideToRight {
+    0% {
+        transform: translateX(0); /* Start with no translation */
+    }
+    100% {
+        transform: translateX(-280px); /* Slide the container to the left (adjust as needed) */
+    }
+}
+
+@keyframes slideToLeft {
+    0% {
+        transform: translateX(0); /* Start with no translation */
+    }
+    100% {
+        transform: translateX(280px); /* Slide the container to the right (adjust as needed) */
+    }
+}

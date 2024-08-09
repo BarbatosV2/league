@@ -1,0 +1,47 @@
+/* model-viewer.css */
+.model-viewer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.model-view-css-fix {
+    object-fit: cover;
+    height: 80vh;
+    width: auto;
+}
+
+model-viewer {
+    width: 50vh;
+    height: 40vh;
+    margin: auto;
+    position: relative; /* Ensure the background image is positioned relative to the model viewer */
+    background-image: url(../icons/boarder.png), url(../icons/vp_progression_frame.png);
+    background-size: 75%; /* Adjust the size as needed */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+model-viewer::before {
+    content: ''; /* Create a pseudo-element to hold the background image */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../icons/dash_circle.svg);
+    background-size: 68%;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: rotateBackground 30s linear infinite; /* Adjust duration and timing function as needed */
+}
+
+@keyframes rotateBackground {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
