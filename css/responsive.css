@@ -37,6 +37,14 @@
         flex-direction: column;
     }
 
+    .left {
+        left: 5%;
+    }
+    
+    .right {
+        right: 5%;
+    }
+
     .rune-row {
         margin-bottom: 15px;
     }

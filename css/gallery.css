@@ -33,11 +33,11 @@
 }
 
 .left {
-    left: 10px;
+    left: 15%;
 }
 
 .right {
-    right: 10px;
+    right: 15%;
 }
 
 @keyframes slideToRight {
