@@ -117,6 +117,7 @@ function showSelectedModelContent() {
                 <img src="map/Sejuani/LoLMap_Red.png" alt="LoLMap_Red">
                 </div>
                 <h2 class="title">Spells</h2>
+                <h3 class="title">lvl 1 - 18</h3>
                 <div class="spells">
                     <div class="spell-image">
                         <img src="ChampSpells/Sejuani/E.webp" alt="E">
@@ -287,6 +288,7 @@ function showSelectedModelContent() {
                     <img src="map/Warwick/LoLMap_Red.png" alt="LoLMap_Red">
                     </div>
                     <h2 class="title">Spells</h2>
+                    <h3 class="title">lvl 1 - 18</h3>
                     <div class="spells">
                         <div class="spell-image">
                             <img src="ChampSpells/Warwick/Q.jpg" alt="Q">
@@ -574,6 +576,7 @@ function showSelectedModelContent() {
                     <img src="map/Mid/LoLMap_Counter.png" alt="LoLMap_Counter">
                     </div>
                     <h2 class="title">Spells</h2>
+                    <h3 class="title">lvl 1 - 18</h3>
                     <div class="spells">
                         <div class="spell-image">
                             <img src="ChampSpells/Malzahar/E.jpg" alt="E">
