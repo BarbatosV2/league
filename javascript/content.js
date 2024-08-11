@@ -460,7 +460,8 @@ function showSelectedModelContent() {
                     <model-viewer src="3dAnimated/${selectedModel}" 
                     alt="Model" ar ar-modes="webxr scene-viewer quick-look" 
                     camera-controls 
-                    animation-name="Walk" autoplay>
+                    animation-name="Walk" autoplay
+                    camera-controls camera-orbit="0deg 90deg" field-of-view="40deg">
                     </model-viewer>`;
                 paragraphContainer2.innerHTML = `
                     <h2 class="champ-name">Mordekaiser</h2>
