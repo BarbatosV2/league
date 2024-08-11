@@ -461,7 +461,7 @@ function showSelectedModelContent() {
                     alt="Model" ar ar-modes="webxr scene-viewer quick-look" 
                     camera-controls 
                     animation-name="Walk" autoplay
-                    camera-controls camera-orbit="0deg 90deg" field-of-view="40deg">
+                    camera-controls camera-orbit="0deg 90deg" field-of-view="30deg">
                     </model-viewer>`;
                 paragraphContainer2.innerHTML = `
                     <h2 class="champ-name">Mordekaiser</h2>
@@ -482,7 +482,8 @@ function showSelectedModelContent() {
                         <model-viewer src="3dAnimated/${selectedModel}" 
                         alt="Model" ar ar-modes="webxr scene-viewer quick-look" 
                         camera-controls 
-                        animation-name="Idle2" autoplay>
+                        animation-name="Idle2" autoplay
+                        camera-controls camera-orbit="0deg 70deg" field-of-view="9deg">
                         </model-viewer>`;
                     paragraphContainer2.innerHTML = `
                         <h2 class="champ-name">Rumble</h2>
@@ -504,7 +505,8 @@ function showSelectedModelContent() {
                     alt="Model" ar ar-modes="webxr scene-viewer quick-look" 
                     camera-controls 
                     camera-orbit="20deg 100deg"
-                    animation-name="Taunt" autoplay>
+                    animation-name="Taunt" autoplay
+                    camera-controls camera-orbit="0deg 0deg" field-of-view="18deg">
                     </model-viewer>`;
                 paragraphContainer2.innerHTML = `
                     <h2 class="champ-name">Volibear</h2>
@@ -525,7 +527,8 @@ function showSelectedModelContent() {
                     <model-viewer src="3dAnimated/${selectedModel}" 
                     alt="Model" ar ar-modes="webxr scene-viewer quick-look" 
                     camera-controls 
-                    animation-name="Taunt" autoplay>
+                    animation-name="Taunt" autoplay
+                    camera-controls camera-orbit="0deg 90deg" field-of-view="10deg">
                     </model-viewer>`;
                 paragraphContainer2.innerHTML = `
                     <h2 class="champ-name">Ornn</h2>
