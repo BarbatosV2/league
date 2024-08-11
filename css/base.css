@@ -64,3 +64,9 @@ body {
     font-weight: normal;
     font-style: normal;
 }
+
+#copyright {
+    padding: 20px; /* Adjust the padding as needed */
+    color: #F0E6D2;
+    text-align: center
+  }
