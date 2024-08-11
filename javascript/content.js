@@ -40,7 +40,7 @@ function showContent(imageId) {
                 <div class="champ-select">
                 <label for="model3">Choose a Champion:</label>
                 <select id="modelSelector3">
-                    <option value="hextech-malzahar.glb" selected>Malzahar</option>
+                    <option value="hextech_malzahar.glb" selected>Malzahar</option>
                     <option value="veigar.glb">Veigar</option>
                 </select>
                 </div>
@@ -555,13 +555,14 @@ function showSelectedModelContent() {
         const paragraphContainer3 = document.getElementById('paragraphContainer3');
         modelViewerContainer3.innerHTML = ''; // Clear model viewer container content
         switch (selectedModel) {
-            case 'hextech-malzahar.glb':
+            case 'hextech_malzahar.glb':
                 // Set model viewer container content for Malzahar
                 modelViewerContainer3.innerHTML = `
                     <model-viewer src="3dAnimated/${selectedModel}" 
                     alt="Model" ar ar-modes="webxr scene-viewer quick-look" 
                     camera-controls 
-                    animation-name="Dance" autoplay>
+                    animation-name="Spell4" autoplay
+                    camera-controls camera-orbit="0deg 75deg" field-of-view="9deg">
                     </model-viewer>`;
                 paragraphContainer3.innerHTML = `
                     <h2 class="champ-name">Malzahar</h2>
