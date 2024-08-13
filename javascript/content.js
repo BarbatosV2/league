@@ -527,7 +527,7 @@ function showSelectedModelContent() {
                             <div class="label">E</div>
                         </div>
                         <div class="spell-image">
-                            <img src="ChampSpells/Mordekaiser/E.jpg" alt="E">
+                            <img src="ChampSpells/Mordekaiser/E.webp" alt="E">
                             <div class="label">E</div>
                         </div>
                         <div class="spell-image">
