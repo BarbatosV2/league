@@ -648,7 +648,158 @@ function showSelectedModelContent() {
                         <h2 class="title">Counter</h2>
                         <div class="map-container">
                         <img src="map/Top/LoLMap_Counter.png" alt="LoLMap_Counter">
-                        </div>`;
+                        </div>
+                        <h2 class="title">Spells</h2>
+                        <div class="spells">
+                        <div class="spell-image">
+                            <img src="ChampSpells/Rumble/E.webp" alt="E">
+                            <div class="label">E</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Rumble/Q.webp" alt="Q">
+                            <div class="label">Q</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Rumble/W.webp" alt="W">
+                            <div class="label">W</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Rumble/Q.webp" alt="Q">
+                            <div class="label">Q</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Rumble/Q.webp" alt="Q">
+                            <div class="label">Q</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Rumble/R.webp" alt="R">
+                            <div class="label">R</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Rumble/Q.webp" alt="Q">
+                            <div class="label">Q</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Rumble/E.webp" alt="E">
+                            <div class="label">E</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Rumble/Q.webp" alt="Q">
+                            <div class="label">Q</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Rumble/E.webp" alt="E">
+                            <div class="label">E</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Rumble/R.webp" alt="R">
+                            <div class="label">R</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Rumble/E.webp" alt="E">
+                            <div class="label">E</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Rumble/E.webp" alt="E">
+                            <div class="label">E</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Rumble/W.webp" alt="W">
+                            <div class="label">W</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Rumble/W.webp" alt="W">
+                            <div class="label">W</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Rumble/R.webp" alt="R">
+                            <div class="label">R</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Rumble/W.webp" alt="W">
+                            <div class="label">W</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Rumble/W.webp" alt="W">
+                            <div class="label">W</div>
+                        </div>
+    
+                        <!-- Repeat the above structure for other images -->
+                        <!-- Add more <div class="spell-image"> elements for each image -->
+                    </div>
+
+                    <h2 class="title">Runes</h2>
+                    <h3 class="title">Primary Rune</h3>
+                    <div class="rune-container">
+                        <div class="rune-row">
+                            <img class="rune-image" src="Runes/Sorcery/Sorcery_icon.webp">
+                        </div>
+                        <div class="rune-row">
+                            <img class="rune-image rune-unselect" src="Runes/Sorcery/Summon_Aery_rune.webp">
+                            <img class="rune-image" src="Runes/Sorcery/Arcane_Comet_rune.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Sorcery/Phase_Rush_rune.webp">
+                        </div>
+                        <div class="rune-row">
+                            <img class="rune-image rune-unselect" src="Runes/Sorcery/Nullifying_Orb_rune.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Sorcery/Manaflow_Band_rune.webp">
+                            <img class="rune-image" src="Runes/Sorcery/Nimbus_Cloak_rune.webp">
+                        </div>
+                        <div class="rune-row">
+                            <img class="rune-image rune-unselect" src="Runes/Sorcery/Transcendence_rune.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Sorcery/Celerity_rune.webp">
+                            <img class="rune-image" src="Runes/Sorcery/Absolute_Focus_rune.webp">
+                        </div>
+                        <div class="rune-row">
+                            <img class="rune-image" src="Runes/Sorcery/Scorch_rune.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Sorcery/Waterwalking_rune.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Sorcery/Gathering_Storm_rune.webp">
+                        </div>
+                    </div>
+                    <h3 class="title">Secondary Rune</h3>
+                    <div class="rune-container">
+                        <div class="rune-row">
+                            <img class="rune-image" src="Runes/Precision/Precision_icon.webp">
+                        </div>
+                        <div class="rune-row">
+                            <img class="rune-image" src="Runes/Precision/Absorb_life_rune.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Precision/Triumph_rune.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Precision/Presence_of_Mind_rune.webp">
+                        </div>
+                        <div class="rune-row">
+                            <img class="rune-image rune-unselect" src="Runes/Precision/Legend-_Alacrity_rune.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Precision/Legend-_Tenacity_rune.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Precision/Legend-_Bloodline_rune.webp">
+                        </div>
+                        <div class="rune-row">
+                            <img class="rune-image rune-unselect" src="Runes/Precision/Coup_de_Grace_rune.webp">
+                            <img class="rune-image" src="Runes/Precision/Cut_Down_rune.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Precision/Last_Stand_rune.webp">
+                        </div>
+                    </div>
+                    <h3 class="title">Shards</h3>
+                    <div class="rune-container">
+                        <div class="rune-row">
+                            <img class="rune-image" src="Runes/Shards/Adaptive_Force.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Shards/Attack_Speed.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Shards/Cooldown_Reduction.webp">
+                        </div>
+                        <div class="rune-row">
+                            <img class="rune-image" src="Runes/Shards/Adaptive_Force.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Shards/Movement_Speed.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Shards/Health_Scaling.webp">
+                        </div>
+                        <div class="rune-row">
+                            <img class="rune-image rune-unselect" src="Runes/Shards/Health.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Shards/Tenacity_and_Slow_Resist.webp">
+                            <img class="rune-image" src="Runes/Shards/Health_Scaling.webp">
+                        </div>
+                    </div>
+                    <h2 class="title">Items</h2>
+                    <h3 class="title">Initial State</h3>
+                    <div class="rune-row">
+                        <img class="rune-image item" src="items/doran/Doran_Ring.webp">
+                        <img class="rune-image item" src="items/potions/Health_Potion.webp">
+                    </div>`;
                     break;
             case 'the-thousand-pierced-bear.glb':
                 // Set model viewer container content for Warwick
