@@ -650,6 +650,7 @@ function showSelectedModelContent() {
                         <img src="map/Top/LoLMap_Counter.png" alt="LoLMap_Counter">
                         </div>
                         <h2 class="title">Spells</h2>
+                        <h3 class="title">lvl 1 - 18</h3>
                         <div class="spells">
                         <div class="spell-image">
                             <img src="ChampSpells/Rumble/E.webp" alt="E">
@@ -761,7 +762,7 @@ function showSelectedModelContent() {
                             <img class="rune-image" src="Runes/Precision/Precision_icon.webp">
                         </div>
                         <div class="rune-row">
-                            <img class="rune-image" src="Runes/Precision/Absorb_life_rune.webp">
+                            <img class="rune-image" src="Runes/Precision/Absorb_Life_rune.webp">
                             <img class="rune-image rune-unselect" src="Runes/Precision/Triumph_rune.webp">
                             <img class="rune-image rune-unselect" src="Runes/Precision/Presence_of_Mind_rune.webp">
                         </div>
