@@ -802,7 +802,7 @@ function showSelectedModelContent() {
                     </div>`;
                     break;
             case 'the-thousand-pierced-bear.glb':
-                // Set model viewer container content for Warwick
+                // Set model viewer container content for Warwick.
                 modelViewerContainer2.innerHTML = `
                     <model-viewer src="3dAnimated/${selectedModel}" 
                     alt="Model" ar ar-modes="webxr scene-viewer quick-look" 
