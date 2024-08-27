@@ -443,7 +443,7 @@ function showSelectedModelContent() {
                     </div>`;
                 break;
 
-                case 'odyssey_kayn.glb':
+                case 'odyssey_kayn.glb': //kayn
                     modelViewerContainer1.innerHTML = `
                         <model-viewer src="3dAnimated/${selectedModel}" 
                         alt="Model" ar ar-modes="webxr scene-viewer quick-look" 

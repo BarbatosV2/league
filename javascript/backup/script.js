@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="champ-select">
                 <label for="model3">Choose a Champion:</label>
                 <select id="modelSelector3">
-                    <option value="hextech-malzahar.glb" selected>Malzahar</option>
+                    <option value="hextech_malzahar.glb" selected>Malzahar</option>
                     <option value="veigar.glb">Veigar</option>
                 </select>
                 </div>
@@ -597,7 +597,7 @@ document.addEventListener('DOMContentLoaded', function() {
             modelViewerContainer3.innerHTML = '';
             // Update model viewer container based on the selected model
             switch (selectedModel) {
-                case 'hextech-malzahar.glb':
+                case 'hextech_malzahar.glb':
                     // Set model viewer container content for Malzahar
                     modelViewerContainer3.innerHTML = `
                         <model-viewer src="3dAnimated/${selectedModel}" 
