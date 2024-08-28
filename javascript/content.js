@@ -274,7 +274,8 @@ function showSelectedModelContent() {
                 <model-viewer src="3dAnimated/${selectedModel}" 
                 alt="Model" ar ar-modes="webxr scene-viewer quick-look" 
                 camera-controls 
-                animation-name="Taunt" autoplay>
+                animation-name="Taunt" autoplay
+                camera-controls camera-orbit="0deg 90deg" field-of-view="11deg">
                 </model-viewer>`;
             paragraphContainer1.innerHTML = `
                 <h2 class="champ-name">Warwick</h2>
@@ -1524,7 +1525,8 @@ function showSelectedModelContent() {
                     <model-viewer src="3dAnimated/${selectedModel}" 
                     alt="Model" ar ar-modes="webxr scene-viewer quick-look" 
                     camera-controls 
-                    animation-name="Idle1" autoplay>
+                    animation-name="Idle1" autoplay
+                    camera-controls camera-orbit="0deg 90deg" field-of-view="10deg">
                     </model-viewer>`;
                 paragraphContainer3.innerHTML = `
                     <h2 class="champ-name">Veigar</h2>
