@@ -449,7 +449,7 @@ function showSelectedModelContent() {
                         alt="Model" ar ar-modes="webxr scene-viewer quick-look" 
                         camera-controls 
                         animation-name="Transform_Assassin" autoplay
-                        camera-controls camera-orbit="0deg 90deg" field-of-view="30deg">
+                        camera-controls camera-orbit="0deg 90deg" field-of-view="25deg">
                         </model-viewer>`;
                     paragraphContainer1.innerHTML = `
                         <h2 class="champ-name">Kayn</h2>
