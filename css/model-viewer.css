@@ -13,7 +13,7 @@
 }
 
 model-viewer {
-    width: 65vh;
+    width: 50vh;
     height: 50vh;
     margin: auto;
     position: relative; /* Ensure the background image is positioned relative to the model viewer */
