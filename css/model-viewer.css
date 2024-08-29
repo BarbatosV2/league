@@ -14,7 +14,7 @@
 
 model-viewer {
     width: 50vh;
-    height: 50vh;
+    height: 40vh;
     margin: auto;
     position: relative; /* Ensure the background image is positioned relative to the model viewer */
     background-image: url(../icons/boarder.png), url(../icons/vp_progression_frame.png);
