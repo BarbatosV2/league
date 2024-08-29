@@ -272,10 +272,9 @@ function showSelectedModelContent() {
         case 'project-warwick.glb':
             modelViewerContainer1.innerHTML = `
                 <model-viewer src="3dAnimated/${selectedModel}" 
-                alt="Model" ar ar-modes="webxr scene-viewer quick-look" 
-                camera-controls 
+                alt="Model" ar ar-modes="webxr scene-viewer quick-look"  
                 animation-name="Taunt" autoplay
-                camera-controls camera-orbit="0deg 90deg" field-of-view="11deg">
+                camera-controls camera-orbit="0deg 90deg" field-of-view="30deg">
                 </model-viewer>`;
             paragraphContainer1.innerHTML = `
                 <h2 class="champ-name">Warwick</h2>
@@ -450,7 +449,7 @@ function showSelectedModelContent() {
                         alt="Model" ar ar-modes="webxr scene-viewer quick-look" 
                         camera-controls 
                         animation-name="Transform_Assassin" autoplay
-                        camera-controls camera-orbit="0deg 90deg" field-of-view="10deg">
+                        camera-controls camera-orbit="0deg 90deg" field-of-view="35deg">
                         </model-viewer>`;
                     paragraphContainer1.innerHTML = `
                         <h2 class="champ-name">Kayn</h2>
