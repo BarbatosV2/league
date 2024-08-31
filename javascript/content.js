@@ -43,6 +43,7 @@ function showContent(imageId) {
                 <select id="modelSelector3">
                     <option value="hextech_malzahar.glb" selected>Malzahar</option>
                     <option value="veigar.glb">Veigar</option>
+                    <option value="vex.glb">Vex</option>
                 </select>
                 </div>
                 <div id="modelViewerContainer3"></div>
@@ -680,7 +681,7 @@ function showSelectedModelContent() {
                             <div class="label">R</div>
                         </div>
                         <div class="spell-image">
-                            <img src="ChampSpells/Mordekaiser/Q.webp" alt="Q">
+                            <img src="ChampSpells/Mordekaise109775242220826082r/Q.webp" alt="Q">
                             <div class="label">Q</div>
                         </div>
                         <div class="spell-image">
@@ -1612,6 +1613,182 @@ function showSelectedModelContent() {
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Veigar/E.webp" alt="E">
+                            <div class="label">E</div>
+                        </div>
+    
+                        <!-- Repeat the above structure for other images -->
+                        <!-- Add more <div class="spell-image"> elements for each image -->
+                    </div>
+
+                    <h2 class="title">Runes</h2>
+                    <h3 class="title">Primary Rune</h3>
+                    <div class="rune-container">
+                        <div class="rune-row">
+                            <img class="rune-image" src="Runes/Domination/Domination_icon.webp">
+                        </div>
+                        <div class="rune-row">
+                            <img class="rune-image" src="Runes/Domination/Electrocute_rune.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Domination/Dark_Harvest_rune.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Domination/Hail_of_Blades_rune.webp">
+                        </div>
+                        <div class="rune-row">
+                            <img class="rune-image rune-unselect" src="Runes/Domination/Cheap_Shot_rune.webp">
+                            <img class="rune-image" src="Runes/Domination/Taste_of_Blood_rune.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Domination/Sudden_Impact_rune.webp">
+                        </div>
+                        <div class="rune-row">
+                            <img class="rune-image rune-unselect" src="Runes/Domination/Zombie_Ward_rune.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Domination/Ghost_Poro_rune.webp">
+                            <img class="rune-image" src="Runes/Domination/Eyeball_Collection_rune.webp">
+                        </div>
+                        <div class="rune-row">
+                            <img class="rune-image rune-unselect" src="Runes/Domination/Treasure_Hunter_rune.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Domination/Relentless_hunter_rune.webp">
+                            <img class="rune-image" src="Runes/Domination/Ultimate_Hunter_rune.webp">
+                        </div>
+                    </div>
+                    <h3 class="title">Secondary Rune</h3>
+                    <div class="rune-container">
+                        <div class="rune-row">
+                            <img class="rune-image" src="Runes/Sorcery/Sorcery_icon.webp">
+                        </div>
+                        <div class="rune-row">
+                            <img class="rune-image rune-unselect" src="Runes/Sorcery/Nullifying_Orb_rune.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Sorcery/Manaflow_Band_rune.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Sorcery/Nimbus_Cloak_rune.webp">
+                        </div>
+                        <div class="rune-row">
+                            <img class="rune-image" src="Runes/Sorcery/Transcendence_rune.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Sorcery/Celerity_rune.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Sorcery/Absolute_Focus_rune.webp">
+                        </div>
+                        <div class="rune-row">
+                            <img class="rune-image" src="Runes/Sorcery/Scorch_rune.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Sorcery/Waterwalking_rune.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Sorcery/Gathering_Storm_rune.webp">
+                        </div>
+                    </div>
+                    <h3 class="title">Shards</h3>
+                    <div class="rune-container">
+                        <div class="rune-row">
+                            <img class="rune-image rune-unselect" src="Runes/Shards/Adaptive_Force.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Shards/Attack_Speed.webp">
+                            <img class="rune-image" src="Runes/Shards/Cooldown_Reduction.webp">
+                        </div>
+                        <div class="rune-row">
+                            <img class="rune-image" src="Runes/Shards/Adaptive_Force.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Shards/Movement_Speed.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Shards/Health_Scaling.webp">
+                        </div>
+                        <div class="rune-row">
+                            <img class="rune-image" src="Runes/Shards/Health.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Shards/Tenacity_and_Slow_Resist.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Shards/Health_Scaling.webp">
+                        </div>
+                    </div>
+                    <h2 class="title">Items</h2>
+                    <h3 class="title">Initial State</h3>
+                    <div class="rune-row">
+                        <img class="rune-image item" src="items/other/Tear_of_the_Goddess.webp">
+                        <img class="rune-image item" src="items/potions/Health_Potion.webp">
+                        <img class="rune-image item" src="items/potions/Health_Potion.webp">
+                    </div>`;
+                break;
+
+                case 'vex.glb':
+                // Set model viewer container content for Veigar
+                modelViewerContainer3.innerHTML = `
+                    <model-viewer src="3dAnimated/${selectedModel}" 
+                    alt="Model" ar ar-modes="webxr scene-viewer quick-look" 
+                    camera-controls 
+                    animation-name="Idle1" autoplay
+                    camera-controls camera-orbit="0deg 60deg" field-of-view="10deg">
+                    </model-viewer>`;
+                paragraphContainer3.innerHTML = `
+                    <h2 class="champ-name">Vex</h2>
+                    <p class="para">I play the long game.</p>
+                    <p class="para">Stacking AP until I can one-shot anyone.</p>
+                    <h2 class="title">Priority</h2>
+                    <div class="map-container">
+                    <img src="map/Mid/LoLMap_Prio.png" alt="LoLMap_Prio">
+                    </div>
+                    <h2 class="title">Counter</h2>
+                    <div class="map-container">
+                    <img src="map/Mid/LoLMap_Counter.png" alt="LoLMap_Counter">
+                    </div>
+                    <h2 class="title">Spells</h2>
+                        <h3 class="title">lvl 1 - 18</h3>
+                        <div class="spells">
+                        <div class="spell-image">
+                            <img src="ChampSpells/Vex/E.webp" alt="E">
+                            <div class="label">E</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Vex/Q.webp" alt="Q">
+                            <div class="label">Q</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Vex/W.webp" alt="W">
+                            <div class="label">E</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Vex/Q.webp" alt="Q">
+                            <div class="label">Q</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Vex/Q.webp" alt="Q">
+                            <div class="label">Q</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Vex/R.webp" alt="R">
+                            <div class="label">R</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Vex/Q.webp" alt="Q">
+                            <div class="label">Q</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Vex/W.webp" alt="W">
+                            <div class="label">W</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Vex/Q.webp" alt="Q">
+                            <div class="label">Q</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Vex/W.webp" alt="W">
+                            <div class="label">W</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Vex/R.webp" alt="R">
+                            <div class="label">R</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Vex/W.webp" alt="W">
+                            <div class="label">W</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Vex/E.webp" alt="E">
+                            <div class="label">E</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Vex/E.webp" alt="E">
+                            <div class="label">E</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Vex/E.webp" alt="E">
+                            <div class="label">E</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Vex/R.webp" alt="R">
+                            <div class="label">R</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Vex/E.webp" alt="E">
+                            <div class="label">E</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Vex/E.webp" alt="E">
                             <div class="label">E</div>
                         </div>
     
