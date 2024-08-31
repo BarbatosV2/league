@@ -804,6 +804,7 @@ function showSelectedModelContent() {
                     <div class="rune-row">
                         <img class="rune-image item" src="items/doran/Doran_Shield.webp">
                         <img class="rune-image item" src="items/potions/Health_Potion.webp">
+                        <img class="rune-image item" src="items/potions/Health_Potion.webp">
                     </div>`;
                 break;
                 case 'badlands_baron_rumble.glb':
@@ -977,6 +978,7 @@ function showSelectedModelContent() {
                     <h3 class="title">Initial State</h3>
                     <div class="rune-row">
                         <img class="rune-image item" src="items/doran/Doran_Ring.webp">
+                        <img class="rune-image item" src="items/potions/Health_Potion.webp">
                         <img class="rune-image item" src="items/potions/Health_Potion.webp">
                     </div>`;
                     break;
@@ -1153,6 +1155,7 @@ function showSelectedModelContent() {
                     <div class="rune-row">
                         <img class="rune-image item" src="items/doran/Doran_Shield.webp">
                         <img class="rune-image item" src="items/potions/Health_Potion.webp">
+                        <img class="rune-image item" src="items/potions/Health_Potion.webp">
                     </div>`;
                 break;
             case 'elderwood-ornn.glb':
@@ -1326,6 +1329,7 @@ function showSelectedModelContent() {
                     <h3 class="title">Initial State</h3>
                     <div class="rune-row">
                         <img class="rune-image item" src="items/doran/Doran_Shield.webp">
+                        <img class="rune-image item" src="items/potions/Health_Potion.webp">
                         <img class="rune-image item" src="items/potions/Health_Potion.webp">
                     </div>`;
                 break;
@@ -1517,6 +1521,7 @@ function showSelectedModelContent() {
                     <div class="rune-row">
                         <img class="rune-image item" src="items/doran/Doran_Ring.webp">
                         <img class="rune-image item" src="items/potions/Health_Potion.webp">
+                        <img class="rune-image item" src="items/potions/Health_Potion.webp">
                     </div>`;
                 break;
             case 'veigar.glb':
@@ -1706,8 +1711,8 @@ function showSelectedModelContent() {
                     </model-viewer>`;
                 paragraphContainer3.innerHTML = `
                     <h2 class="champ-name">Vex</h2>
-                    <p class="para">I play the long game.</p>
-                    <p class="para">Stacking AP until I can one-shot anyone.</p>
+                    <p class="para">Kay. See if I care.</p>
+                    <p class="para">Let's turn these smiles upside down.</p>
                     <h2 class="title">Priority</h2>
                     <div class="map-container">
                     <img src="map/Mid/LoLMap_Prio.png" alt="LoLMap_Prio">
