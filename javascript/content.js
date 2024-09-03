@@ -681,7 +681,7 @@ function showSelectedModelContent() {
                             <div class="label">R</div>
                         </div>
                         <div class="spell-image">
-                            <img src="ChampSpells/Mordekaise109775242220826082r/Q.webp" alt="Q">
+                            <img src="ChampSpells/Mordekaiser/Q.webp" alt="Q">
                             <div class="label">Q</div>
                         </div>
                         <div class="spell-image">
