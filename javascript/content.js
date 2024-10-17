@@ -11,7 +11,7 @@ function showContent(imageId) {
                 <h2 class="title">Jungle</h2>
                 <div class="champ-select">
                 <label for="model1">Choose a Champion:</label>
-                <select value="project-warwick.glb" id="modelSelector1">
+                <select value="odyssey_kayn.glb" id="modelSelector1">
                     <option value="odyssey_kayn.glb">Kayn</option>
                     <option value="project-warwick.glb">Warwick</option>
                     <option value="solar-eclipse-sejuani.glb">Sejuani</option>
