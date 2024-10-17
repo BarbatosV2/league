@@ -12,10 +12,10 @@ function showContent(imageId) {
                 <div class="champ-select">
                 <label for="model1">Choose a Champion:</label>
                 <select value="project-warwick.glb" id="modelSelector1">
-                    <option value="meowkai.glb">Maokai</option>
+                    <option value="odyssey_kayn.glb">Kayn</option>
                     <option value="project-warwick.glb">Warwick</option>
                     <option value="solar-eclipse-sejuani.glb">Sejuani</option>
-                    <option value="odyssey_kayn.glb">Kayn</option>
+                    <option value="meowkai.glb">Maokai</option>
                 </select>
                 </div>
                 <div id="modelViewerContainer1"></div>
