@@ -76,12 +76,19 @@ body {
     bottom: 20px;
     left: 20px;
     z-index: 1000;
-    background-color: #4CAF50;
-    color: white;
+    background-color: transparent;
     border: none;
-    padding: 10px 20px;
+    padding: 0;
+    width: 60px;
+    height: 60px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: transform 0.3s ease; /* Add smooth hover effect */
+}
+
+#toggleButton:hover {
+    transform: scale(1.2); /* Makes the button grow when hovered */
 }
 
 #profileContainer {
@@ -99,8 +106,8 @@ body {
 /* Adjust layout for larger screens */
 @media (min-width: 768px) {
     #profileContainer {
-        left: 40%;
-        width: 700px;
+        left: 30%;
+        width: 600px;
         height: 800px;
     }
 }
