@@ -70,3 +70,28 @@ body {
     color: #F0E6D2;
     text-align: center
   }
+
+#toggleButton {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#profileContainer {
+    position: fixed;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 400px;
+    height: 600px;
+    z-index: 999;
+    border: 2px solid #ccc;
+    background-color: white;
+}
