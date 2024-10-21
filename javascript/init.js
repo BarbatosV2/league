@@ -22,9 +22,9 @@ function toggleProfile() {
     var button = document.getElementById("toggleButton");
     if (profile.style.display === "none") {
         profile.style.display = "block";
-        button.innerText = "Hide Profile";
+        button.innerText = "Hide Mastery";
     } else {
         profile.style.display = "none";
-        button.innerText = "Show Profile";
+        button.innerText = "Show Mastery";
     }
 }
