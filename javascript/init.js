@@ -16,3 +16,15 @@ document.addEventListener('DOMContentLoaded', function() {
     leftArrow.addEventListener('click', handleLeftArrowClick);
     rightArrow.addEventListener('click', handleRightArrowClick);
 });
+
+function toggleProfile() {
+    var profile = document.getElementById("profileContainer");
+    var button = document.getElementById("toggleButton");
+    if (profile.style.display === "none") {
+        profile.style.display = "block";
+        button.innerText = "Hide Profile";
+    } else {
+        profile.style.display = "none";
+        button.innerText = "Show Profile";
+    }
+}
