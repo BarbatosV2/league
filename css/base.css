@@ -71,7 +71,7 @@ body {
     text-align: center
   }
 
-#toggleButton {
+  #toggleButton {
     position: fixed;
     bottom: 20px;
     left: 20px;
@@ -94,4 +94,13 @@ body {
     z-index: 999;
     border: 2px solid #ccc;
     background-color: white;
+}
+
+/* Adjust layout for larger screens */
+@media (min-width: 768px) {
+    #profileContainer {
+        left: 40%;
+        width: 700px;
+        height: 800px;
+    }
 }
