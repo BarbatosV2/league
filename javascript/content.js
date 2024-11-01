@@ -15,7 +15,7 @@ function showContent(imageId) {
                     <option value="odyssey_kayn.glb">Kayn</option>
                     <option value="project-warwick.glb">Warwick</option>
                     <option value="solar-eclipse-sejuani.glb">Sejuani</option>
-                    <option value="meowkai.glb">Maokai</option>
+                    <option value="astronaut_maokai.glb">Maokai</option>
                 </select>
                 </div>
                 <div id="modelViewerContainer1"></div>
@@ -445,12 +445,12 @@ function showSelectedModelContent() {
                         </div>`;
                     break;
                     
-                case 'meowkai.glb':
+                case 'astronaut_maokai.glb':
                     modelViewerContainer1.innerHTML = `
                         <model-viewer src="3dAnimated/${selectedModel}" 
                         alt="Model" ar ar-modes="webxr scene-viewer quick-look" 
                         camera-controls 
-                        animation-name="Run" autoplay>
+                        animation-name="Taunt" autoplay>
                         </model-viewer>`;
                     paragraphContainer1.innerHTML = `
                     <h2 class="champ-name">Maokai</h2>
