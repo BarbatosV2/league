@@ -26,3 +26,12 @@ function toggleProfile() {
         profile.style.display = "none";
     }
 }
+
+function toggleProfile(containerId) {
+    var profile = document.getElementById(containerId);
+    if (profile.style.display === "none") {
+        profile.style.display = "block";
+    } else {
+        profile.style.display = "none";
+    }
+}
