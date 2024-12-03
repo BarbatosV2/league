@@ -140,13 +140,22 @@ body {
 }
 
 /* Adjust layout for larger screens */
-@media (min-width: 768px) {
-    #profileContainerLeft,
+@media (min-width: 1100px) {
     #profileContainerRight {
         width: 600px;
         height: 600px;
         position: fixed;
-        bottom: 50%;
-        left: 30%;
+        bottom: 35%;
+        right: 25%;
+    }
+}
+/* Adjust layout for larger screens */
+@media (min-width: 1100px) {
+    #profileContainerLeft {
+        width: 600px;
+        height: 600px;
+        position: fixed;
+        bottom: 35%;
+        left: 25%;
     }
 }
