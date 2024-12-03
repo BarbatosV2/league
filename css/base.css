@@ -71,7 +71,8 @@ body {
     text-align: center
   }
 
-  #toggleButton {
+/* Button 1 (Left) */
+#toggleButtonLeft {
     position: fixed;
     bottom: 20px;
     left: 20px;
@@ -84,18 +85,53 @@ body {
     cursor: pointer;
     border-radius: 50%;
     overflow: hidden;
-    transition: transform 0.3s ease; /* Add smooth hover effect */
+    transition: transform 0.3s ease;
 }
 
-#toggleButton:hover {
-    transform: scale(1.2); /* Makes the button grow when hovered */
+#toggleButtonLeft:hover {
+    transform: scale(1.2);
 }
 
-#profileContainer {
+/* Profile Container 1 (Left) */
+#profileContainerLeft {
     position: fixed;
     bottom: 50%;
-    left: 50%;
+    left: 30%;
     transform: translate(-50%, 50%);
+    width: 400px;
+    height: 600px;
+    z-index: 999;
+    border: 2px solid #ccc;
+    background-color: white;
+}
+
+/* Button 2 (Right) */
+#toggleButtonRight {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+#toggleButtonRight:hover {
+    transform: scale(1.2);
+}
+
+/* Profile Container 2 (Right) */
+#profileContainerRight {
+    position: fixed;
+    bottom: 50%;
+    right: 30%;
+    transform: translate(50%, 50%);
     width: 400px;
     height: 600px;
     z-index: 999;
@@ -105,8 +141,8 @@ body {
 
 /* Adjust layout for larger screens */
 @media (min-width: 768px) {
-    #profileContainer {
-        left: 30%;
+    #profileContainerLeft,
+    #profileContainerRight {
         width: 600px;
         height: 600px;
     }
