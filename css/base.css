@@ -96,7 +96,7 @@ body {
 #profileContainerLeft {
     position: fixed;
     bottom: 50%;
-    left: 30%;
+    left: 50%;
     transform: translate(-50%, 50%);
     width: 400px;
     height: 600px;
@@ -130,7 +130,7 @@ body {
 #profileContainerRight {
     position: fixed;
     bottom: 50%;
-    right: 30%;
+    right: 50%;
     transform: translate(50%, 50%);
     width: 400px;
     height: 600px;
@@ -145,5 +145,8 @@ body {
     #profileContainerRight {
         width: 600px;
         height: 600px;
+        position: fixed;
+        bottom: 50%;
+        left: 30%;
     }
 }
