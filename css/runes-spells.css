@@ -10,11 +10,18 @@
 .rune-row {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.rune-main {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: auro;
 }
 
 .rune-image {
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 .rune-unselect {
