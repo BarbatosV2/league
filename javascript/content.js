@@ -53,8 +53,15 @@ function showContent(imageId) {
         case 'image4':
             newContent.innerHTML = `
                 <h2 class="title">Bot</h2>
-                <p class="para">You don't want to see me play this role.</p>
-                <p class="para">Quite the opposite of Support, I cannot CS :( </p>`;
+                <div class="champ-select">
+                <label for="model4">Choose a Champion:</label>
+                <select id="modelSelector4">
+                    <option value="aphelios.glb" selected>Aphelios</option>
+                </select>
+                </div>
+                <div id="modelViewerContainer4"></div>
+                <div id="paragraphContainer4" class="paragraph-container4"></div>`;
+            break;
             break;
         case 'image5':
             newContent.innerHTML = `
@@ -83,6 +90,7 @@ function attachModelSelectListeners() {
     const modelSelector1 = document.getElementById('modelSelector1');
     const modelSelector2 = document.getElementById('modelSelector2');
     const modelSelector3 = document.getElementById('modelSelector3');
+    const modelSelector4 = document.getElementById('modelSelector4');
     const modelSelector5 = document.getElementById('modelSelector5');
 
     if (modelSelector1) {
@@ -94,6 +102,9 @@ function attachModelSelectListeners() {
     if (modelSelector3) {
         modelSelector3.addEventListener('change', showSelectedModelContent);
     }
+    if (modelSelector4) {
+        modelSelector4.addEventListener('change', showSelectedModelContent);
+    }
     if (modelSelector5) {
         modelSelector5.addEventListener('change', showSelectedModelContent);
     }
@@ -103,6 +114,7 @@ function showSelectedModelContent() {
     const modelSelector1 = document.getElementById('modelSelector1');
     const modelSelector2 = document.getElementById('modelSelector2');
     const modelSelector3 = document.getElementById('modelSelector3');
+    const modelSelector4 = document.getElementById('modelSelector4');
     const modelSelector5 = document.getElementById('modelSelector5');
 
     if (modelSelector1) {
@@ -2068,6 +2080,212 @@ function showSelectedModelContent() {
                 break;
         }
     }
+
+    if (modelSelector4) {
+        const selectedModel = modelSelector4.value;
+        const modelViewerContainer4 = document.getElementById('modelViewerContainer4');
+        const paragraphContainer4 = document.getElementById('paragraphContainer4');
+        modelViewerContainer4.innerHTML = ''; // Clear model viewer container content
+        switch (selectedModel) {
+            case 'aphelios.glb':
+                // Set model viewer container content for Malzahar
+                modelViewerContainer4.innerHTML = `
+                    <model-viewer src="3dAnimated/${selectedModel}" 
+                    alt="Model" ar ar-modes="webxr scene-viewer quick-look" 
+                    camera-controls 
+                    animation-name="Run_Homeguard" autoplay
+                    camera-controls camera-orbit="90deg 80deg" field-of-view="39.5deg">
+                    </model-viewer>`;
+                paragraphContainer4.innerHTML = `
+                    <h2 class="champ-name">Aphelios</h2>
+                    <p class="para">Darkness is not heresy.</p>
+                    <p class="para">It lies within us all.</p>
+                    <h2 class="title">Priority</h2>
+                    <div class="map-container">
+                    <img src="map/Bot/LoLMap_Prio.png" alt="LoLMap_Prio">
+                    </div>
+                    <h2 class="title">Counter</h2>
+                    <div class="map-container">
+                    <img src="map/Bot/LoLMap_Counter.png" alt="LoLMap_Counter">
+                    </div>
+                    <h2 class="title">Spells</h2>
+                        <h3 class="title">lvl 1 - 18</h3>
+                        <div class="spells">
+                        <div class="spell-image">
+                            <img src="ChampSpells/Aphelios/Q.webp" alt="Q">
+                            <div class="label">Attack Damage</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Aphelios/Q.webp" alt="Q">
+                            <div class="label">Attack Damage</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Aphelios/Q.webp" alt="Q">
+                            <div class="label">Attack Damage</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Aphelios/W.webp" alt="W">
+                            <div class="label">Attack Speed</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Aphelios/Q.webp" alt="Q">
+                            <div class="label">Attack Damage</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Aphelios/W.webp" alt="W">
+                            <div class="label">Attack Speed</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Aphelios/Q.webp" alt="Q">
+                            <div class="label">Attack Damage</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Aphelios/W.webp" alt="W">
+                            <div class="label">Attack Speed</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Aphelios/Q.webp" alt="Q">
+                            <div class="label">Attack Damage</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Aphelios/W.webp" alt="W">
+                            <div class="label">Attack Speed</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Aphelios/W.webp" alt="W">
+                            <div class="label">Attack Speed</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Aphelios/W.webp" alt="W">
+                            <div class="label">Attack Speed</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Aphelios/E.webp" alt="E">
+                            <div class="label">Lethality</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Aphelios/E.webp" alt="E">
+                            <div class="label">Lethality</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Aphelios/E.webp" alt="E">
+                            <div class="label">Lethality</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Aphelios/E.webp" alt="E">
+                            <div class="label">Lethality</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Aphelios/E.webp" alt="E">
+                            <div class="label">Lethality</div>
+                        </div>
+                        <div class="spell-image">
+                            <img src="ChampSpells/Aphelios/E.webp" alt="E">
+                            <div class="label">Lethality</div>
+                        </div>
+    
+                        <!-- Repeat the above structure for other images -->
+                        <!-- Add more <div class="spell-image"> elements for each image -->
+                    </div>
+
+                    <h2 class="title">Guns</h2>
+                    <div class="wheel-container">
+                        <div class="wheel">
+                            <div class="car" id="car1"><img src="ChampSpells/Aphelios/Calibrum.webp" alt="Image 1"></div>
+                            <div class="car" id="car2"><img src="ChampSpells/Aphelios/Severum.webp" alt="Image 2"></div>
+                            <div class="car" id="car3"><img src="ChampSpells/Aphelios/Gravitum.webp" alt="Image 3"></div>
+                            <div class="car" id="car4"><img src="ChampSpells/Aphelios/Infernum.webp" alt="Image 4"></div>
+                            <div class="car" id="car5"><img src="ChampSpells/Aphelios/Crescendum.webp" alt="Image 5"></div>
+                        </div>
+                    </div>
+
+                    <h2 class="title">Runes</h2>
+                        <h3 class="title">Primary Rune</h3>
+                        <div class="rune-container">
+                            <div class="rune-row">
+                                <img class="rune-image" src="Runes/Precision/Precision_icon.webp">
+                            </div>
+                            <div class="rune-main">
+                                <img class="rune-image" src="Runes/Precision/Press_the_Attack_rune.webp">
+                                <img class="rune-image rune-unselect" src="Runes/Precision/Lethal_Tempo_rune.webp">
+                                <img class="rune-image rune-unselect" src="Runes/Precision/Fleet_Footwork_rune.webp">
+                                <img class="rune-image rune-unselect" src="Runes/Precision/Conqueror_rune.webp">
+                            </div>
+                            <div class="rune-row">
+                                <img class="rune-image rune-unselect" src="Runes/Precision/Overheal_rune.webp">
+                                <img class="rune-image" src="Runes/Precision/Triumph_rune.webp">
+                                <img class="rune-image rune-unselect" src="Runes/Precision/Presence_of_Mind_rune.webp">
+                            </div>
+                            <div class="rune-row">
+                                <img class="rune-image rune-unselect" src="Runes/Precision/Legend-_Alacrity_rune.webp">
+                                <img class="rune-image rune-unselect" src="Runes/Precision/Legend-_Tenacity_rune.webp">
+                                <img class="rune-image" src="Runes/Precision/Legend-_Bloodline_rune.webp">
+                            </div>
+                            <div class="rune-row">
+                                <img class="rune-image rune-unselect" src="Runes/Precision/Coup_de_Grace_rune.webp">
+                                <img class="rune-image" src="Runes/Precision/Cut_Down_rune.webp">
+                                <img class="rune-image rune-unselect" src="Runes/Precision/Last_Stand_rune.webp">
+                            </div>
+                        </div>
+
+                    <h3 class="title">Secondary Rune</h3>
+                    <div class="rune-container">
+                            <div class="rune-row">
+                                <img class="rune-image" src="Runes/Sorcery/Sorcery_icon.webp">
+                            </div>
+                            <div class="rune-row">
+                                <img class="rune-image rune-unselect" src="Runes/Sorcery/Nullifying_Orb_rune.webp">
+                                <img class="rune-image rune-unselect" src="Runes/Sorcery/Manaflow_Band_rune.webp">
+                                <img class="rune-image rune-unselect" src="Runes/Sorcery/Nimbus_Cloak_rune.webp">
+                            </div>
+                            <div class="rune-row">
+                                <img class="rune-image rune-unselect" src="Runes/Sorcery/Transcendence_rune.webp">
+                                <img class="rune-image rune-unselect" src="Runes/Sorcery/Celerity_rune.webp">
+                                <img class="rune-image" src="Runes/Sorcery/Absolute_Focus_rune.webp">
+                            </div>
+                            <div class="rune-row">
+                                <img class="rune-image rune-unselect" src="Runes/Sorcery/Scorch_rune.webp">
+                                <img class="rune-image rune-unselect" src="Runes/Sorcery/Waterwalking_rune.webp">
+                                <img class="rune-image" src="Runes/Sorcery/Gathering_Storm_rune.webp">
+                            </div>
+                        </div>
+                    <h3 class="title">Shards</h3>
+                    <div class="rune-container">
+                        <div class="rune-row">
+                            <img class="rune-image rune-unselect" src="Runes/Shards/Adaptive_Force.webp">
+                            <img class="rune-image" src="Runes/Shards/Attack_Speed.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Shards/Cooldown_Reduction.webp">
+                        </div>
+                        <div class="rune-row">
+                            <img class="rune-image" src="Runes/Shards/Adaptive_Force.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Shards/Movement_Speed.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Shards/Health_Scaling.webp">
+                        </div>
+                        <div class="rune-row">
+                            <img class="rune-image" src="Runes/Shards/Health.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Shards/Tenacity_and_Slow_Resist.webp">
+                            <img class="rune-image rune-unselect" src="Runes/Shards/Health_Scaling.webp">
+                        </div>
+                    </div>
+                    <h2 class="title">Items</h2>
+                    <h3 class="title">Initial State</h3>
+                    <div class="rune-row">
+                        <img class="rune-image item" src="items/doran/Doran_Blade.webp">
+                        <img class="rune-image item" src="items/potions/Health_Potion.webp">
+                        <img class="rune-image item" src="items/potions/Health_Potion.webp">
+                    </div>`;
+                break;
+            
+            // Add cases for other models here
+            default:
+                // Clear model viewer container content if no model matches
+                modelViewerContainer4.innerHTML = '';
+                // Clear paragraphs if no model matches
+                paragraphContainer4.innerHTML = '';
+                break;
+        }
+    }
+
     if (modelSelector5) {
         const selectedModel = modelSelector5.value;
         const modelViewerContainer5 = document.getElementById('modelViewerContainer5');
