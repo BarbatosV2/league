@@ -66,4 +66,35 @@
             transform: translateX(230px); /* Slide the container to the right (adjust as needed) */
         }
     }
+
+        /* 🎡 Responsive Ferris Wheel */
+    .wheel {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .car {
+        width: 40px;
+        height: 40px;
+    }
+    
+    /* Recalculate positions for a smaller Ferris wheel (radius = 100px) */
+    /* Correctly position each car using trigonometry */
+    #car1 { top: 0%; left: 50%; transform: translate(-50%, -45%); }   /* Top */
+    #car2 { top: 30%; left: 90%; transform: translate(-20%, -20%); } /* Top Right */
+    #car3 { bottom: 5%; left: 70%; transform: translate(-10%, 30%); } /* Bottom Right */
+    #car4 { bottom: 0%; left: 30%; transform: translate(-100%, 0); } /* Bottom Left */
+    #car5 { top: 30%; left: 10%; transform: translate(-90%, -20%); } /* Top Left */
+        
+    /* Slower rotation for small screens */
+    @keyframes rotate-wheel {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+    
+    /* Keep images upright */
+    @keyframes counter-rotate {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(-360deg); }
+    }
 }
