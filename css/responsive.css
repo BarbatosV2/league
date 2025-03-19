@@ -69,13 +69,13 @@
 
         /* 🎡 Responsive Ferris Wheel */
     .wheel {
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
     }
     
     .car {
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
     }
     
     /* Recalculate positions for a smaller Ferris wheel (radius = 100px) */
