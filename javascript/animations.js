@@ -28,7 +28,7 @@ function handleRightArrowClick() {
 function adjustSideImagesOpacity() {
     const images = document.querySelectorAll('.gallery-image');
     images.forEach(image => {
-        if (image === document.querySelector('.image-container img:nth-child(3)') || image.classList.contains('middle-image')) {
+        if (image === document.querySelector('.image-container img:nth-child(8)') || image.classList.contains('middle-image')) {
             image.style.opacity = 1; // Full opacity for the middle image
         } else {
             image.style.opacity = 0.1; // Faded opacity for other images
@@ -36,21 +36,5 @@ function adjustSideImagesOpacity() {
     });
 }
 
-// Initialize the gallery with cloned images for infinite loop effect
-function initializeGallery() {
-    const imageContainer = document.querySelector('.image-container');
-    const images = document.querySelectorAll('.gallery-image');
 
-    // Clone the first and last images and append them to the container
-    const firstClone = images[1].cloneNode(true);
-    const lastClone = images[images.length].cloneNode(true);
 
-    imageContainer.appendChild(firstClone);
-    imageContainer.insertBefore(lastClone, images[0]);
-
-    // Adjust opacity for side images
-    adjustSideImagesOpacity();
-}
-
-// Call the initializeGallery function when the DOM is loaded
-document.addEventListener('DOMContentLoaded', initializeGallery);
