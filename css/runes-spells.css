@@ -54,6 +54,56 @@
     margin-top: 5px;
     color: #F0E6D2; /* Match font color to overall theme */
     font-size: 12px; /* Adjust font size for labels */
+    font-weight: 600;
+}
+
+.q {
+    margin-top: 5px;
+    color: #f39c12; /* Match font color to overall theme */
+    font-size: 12px; /* Adjust font size for labels */
+    font-weight: 600;
+}
+
+.w {
+    margin-top: 5px;
+    color: #3498db; /* Match font color to overall theme */
+    font-size: 12px; /* Adjust font size for labels */
+    font-weight: 600;
+}
+
+.e {
+    margin-top: 5px;
+    color: #8e44ad; /* Match font color to overall theme */
+    font-size: 12px; /* Adjust font size for labels */
+    font-weight: 600;
+}
+
+.r {
+    margin-top: 5px;
+    color: #e74c3c ; /* Match font color to overall theme */
+    font-size: 12px; /* Adjust font size for labels */
+    font-weight: 600;
+}
+
+.ad {
+    margin-top: 5px;
+    color: #ffa500; /* Match font color to overall theme */
+    font-size: 12px; /* Adjust font size for labels */
+    font-weight: 600; /* Semi bold */
+}
+
+.as {
+    margin-top: 5px;
+    color: #d9d48b; /* Match font color to overall theme */
+    font-size: 12px; /* Adjust font size for labels */
+    font-weight: 600;
+}
+
+.lethality {
+    margin-top: 5px;
+    color: #ff6347; /* Match font color to overall theme */
+    font-size: 12px; /* Adjust font size for labels */
+    font-weight: 600;
 }
 
 .item {
