@@ -2162,27 +2162,27 @@ function showSelectedModelContent() {
                             <div class="as">Attack Speed</div>
                         </div>
                         <div class="spell-image">
-                            <img src="ChampSpells/Aphelios/E.webp" alt="E">
+                            <img src="ChampSpells/Aphelios/E.svg" alt="E">
                             <div class="lethality">Lethality</div>
                         </div>
                         <div class="spell-image">
-                            <img src="ChampSpells/Aphelios/E.webp" alt="E">
+                            <img src="ChampSpells/Aphelios/E.svg" alt="E">
                             <div class="lethality">Lethality</div>
                         </div>
                         <div class="spell-image">
-                            <img src="ChampSpells/Aphelios/E.webp" alt="E">
+                            <img src="ChampSpells/Aphelios/E.svg" alt="E">
                             <div class="lethality">Lethality</div>
                         </div>
                         <div class="spell-image">
-                            <img src="ChampSpells/Aphelios/E.webp" alt="E">
+                            <img src="ChampSpells/Aphelios/E.svg" alt="E">
                             <div class="lethality">Lethality</div>
                         </div>
                         <div class="spell-image">
-                            <img src="ChampSpells/Aphelios/E.webp" alt="E">
+                            <img src="ChampSpells/Aphelios/E.svg" alt="E">
                             <div class="lethality">Lethality</div>
                         </div>
                         <div class="spell-image">
-                            <img src="ChampSpells/Aphelios/E.webp" alt="E">
+                            <img src="ChampSpells/Aphelios/E.svg" alt="E">
                             <div class="lethality">Lethality</div>
                         </div>
     
