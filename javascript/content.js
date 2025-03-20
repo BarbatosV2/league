@@ -147,75 +147,75 @@ function showSelectedModelContent() {
                 <div class="spells">
                     <div class="spell-image">
                         <img src="ChampSpells/Sejuani/E.webp" alt="E">
-                        <div class="label">E</div>
+                        <div class="e">E</div>
                     </div>
                     <div class="spell-image">
                         <img src="ChampSpells/Sejuani/W.webp" alt="W">
-                        <div class="label">W</div>
+                        <div class="w">W</div>
                     </div>
                     <div class="spell-image">
                         <img src="ChampSpells/Sejuani/Q.webp" alt="Q">
-                        <div class="label">Q</div>
+                        <div class="q">Q</div>
                     </div>
                     <div class="spell-image">
                         <img src="ChampSpells/Sejuani/W.webp" alt="W">
-                        <div class="label">W</div>
+                        <div class="w">W</div>
                     </div>
                     <div class="spell-image">
                         <img src="ChampSpells/Sejuani/W.webp" alt="W">
-                        <div class="label">W</div>
+                        <div class="w">W</div>
                     </div>
                     <div class="spell-image">
                         <img src="ChampSpells/Sejuani/R.webp" alt="R">
-                        <div class="label">R</div>
+                        <div class="r">R</div>
                     </div>
                     <div class="spell-image">
                         <img src="ChampSpells/Sejuani/W.webp" alt="W">
-                        <div class="label">W</div>
+                        <div class="w">W</div>
                     </div>
                     <div class="spell-image">
                         <img src="ChampSpells/Sejuani/Q.webp" alt="Q">
-                        <div class="label">Q</div>
+                        <div class="q">Q</div>
                     </div>
                     <div class="spell-image">
                         <img src="ChampSpells/Sejuani/W.webp" alt="W">
-                        <div class="label">W</div>
+                        <div class="w">W</div>
                     </div>
                     <div class="spell-image">
                         <img src="ChampSpells/Sejuani/Q.webp" alt="Q">
-                        <div class="label">Q</div>
+                        <div class="q">Q</div>
                     </div>
                     <div class="spell-image">
                         <img src="ChampSpells/Sejuani/R.webp" alt="R">
-                        <div class="label">R</div>
+                        <div class="r">R</div>
                     </div>
                     <div class="spell-image">
                         <img src="ChampSpells/Sejuani/Q.webp" alt="Q">
-                        <div class="label">Q</div>
+                        <div class="q">Q</div>
                     </div>
                     <div class="spell-image">
                         <img src="ChampSpells/Sejuani/Q.webp" alt="Q">
-                        <div class="label">Q</div>
+                        <div class="q">Q</div>
                     </div>
                     <div class="spell-image">
                         <img src="ChampSpells/Sejuani/E.webp" alt="E">
-                        <div class="label">E</div>
+                        <div class="e">E</div>
                     </div>
                     <div class="spell-image">
                         <img src="ChampSpells/Sejuani/E.webp" alt="E">
-                        <div class="label">E</div>
+                        <div class="e">E</div>
                     </div>
                     <div class="spell-image">
                         <img src="ChampSpells/Sejuani/R.webp" alt="R">
-                        <div class="label">R</div>
+                        <div class="r">R</div>
                     </div>
                     <div class="spell-image">
                         <img src="ChampSpells/Sejuani/E.webp" alt="E">
-                        <div class="label">E</div>
+                        <div class="e">E</div>
                     </div>
                     <div class="spell-image">
                         <img src="ChampSpells/Sejuani/E.webp" alt="E">
-                        <div class="label">E</div>
+                        <div class="e">E</div>
                     </div>
 
                     <!-- Repeat the above structure for other images -->
@@ -318,75 +318,75 @@ function showSelectedModelContent() {
                         <div class="spells">
                             <div class="spell-image">
                                 <img src="ChampSpells/Warwick/Q.jpg" alt="Q">
-                                <div class="label">Q</div>
+                                <div class="q">Q</div>
                             </div>
                             <div class="spell-image">
                                 <img src="ChampSpells/Warwick/W.jpg" alt="W">
-                                <div class="label">W</div>
+                                <div class="w">W</div>
                             </div>
                             <div class="spell-image">
                                 <img src="ChampSpells/Warwick/E.jpg" alt="E">
-                                <div class="label">E</div>
+                                <div class="e">E</div>
                             </div>
                             <div class="spell-image">
                                 <img src="ChampSpells/Warwick/W.jpg" alt="W">
-                                <div class="label">W</div>
+                                <div class="w">W</div>
                             </div>
                             <div class="spell-image">
                                 <img src="ChampSpells/Warwick/W.jpg" alt="W">
-                                <div class="label">W</div>
+                                <div class="w">W</div>
                             </div>
                             <div class="spell-image">
                                 <img src="ChampSpells/Warwick/R.jpg" alt="R">
-                                <div class="label">R</div>
+                                <div class="r">R</div>
                             </div>
                             <div class="spell-image">
                                 <img src="ChampSpells/Warwick/W.jpg" alt="W">
-                                <div class="label">W</div>
+                                <div class="w">W</div>
                             </div>
                             <div class="spell-image">
                                 <img src="ChampSpells/Warwick/Q.jpg" alt="Q">
-                                <div class="label">Q</div>
+                                <div class="q">Q</div>
                             </div>
                             <div class="spell-image">
                                 <img src="ChampSpells/Warwick/W.jpg" alt="W">
-                                <div class="label">W</div>
+                                <div class="w">W</div>
                             </div>
                             <div class="spell-image">
                                 <img src="ChampSpells/Warwick/Q.jpg" alt="Q">
-                                <div class="label">Q</div>
+                                <div class="q">Q</div>
                             </div>
                             <div class="spell-image">
                                 <img src="ChampSpells/Warwick/R.jpg" alt="R">
-                                <div class="label">R</div>
+                                <div class="r">R</div>
                             </div>
                             <div class="spell-image">
                                 <img src="ChampSpells/Warwick/Q.jpg" alt="Q">
-                                <div class="label">Q</div>
+                                <div class="q">Q</div>
                             </div>
                             <div class="spell-image">
                                 <img src="ChampSpells/Warwick/Q.jpg" alt="Q">
-                                <div class="label">Q</div>
+                                <div class="q">Q</div>
                             </div>
                             <div class="spell-image">
                                 <img src="ChampSpells/Warwick/E.jpg" alt="E">
-                                <div class="label">E</div>
+                                <div class="e">E</div>
                             </div>
                             <div class="spell-image">
                                 <img src="ChampSpells/Warwick/E.jpg" alt="E">
-                                <div class="label">E</div>
+                                <div class="e">E</div>
                             </div>
                             <div class="spell-image">
                                 <img src="ChampSpells/Warwick/R.jpg" alt="R">
-                                <div class="label">R</div>
+                                <div class="r">R</div>
                             </div>
                             <div class="spell-image">
                                 <img src="ChampSpells/Warwick/E.jpg" alt="E">
-                                <div class="label">E</div>
+                                <div class="e">E</div>
                             </div>
                             <div class="spell-image">
                                 <img src="ChampSpells/Warwick/E.jpg" alt="E">
-                                <div class="label">E</div>
+                                <div class="e">E</div>
                             </div>
         
                             <!-- Repeat the above structure for other images -->
@@ -492,75 +492,75 @@ function showSelectedModelContent() {
                     <div class="spells">
                         <div class="spell-image">
                             <img src="ChampSpells/Maokai/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Maokai/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Maokai/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Maokai/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Maokai/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Maokai/R.webp" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Maokai/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Maokai/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Maokai/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Maokai/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Maokai/R.webp" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Maokai/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Maokai/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Maokai/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Maokai/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Maokai/R.webp" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Maokai/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Maokai/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
     
                         <!-- Repeat the above structure for other images -->
@@ -665,75 +665,75 @@ function showSelectedModelContent() {
                     <div class="spells">
                         <div class="spell-image">
                             <img src="ChampSpells/Kayn/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Kayn/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Kayn/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Kayn/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Kayn/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Kayn/R.webp" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Kayn/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Kayn/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Kayn/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Kayn/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Kayn/R.webp" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Kayn/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Kayn/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Kayn/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Kayn/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Kayn/R.webp" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Kayn/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Kayn/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
     
                         <!-- Repeat the above structure for other images -->
@@ -854,75 +854,75 @@ function showSelectedModelContent() {
                     <div class="spells">
                         <div class="spell-image">
                             <img src="ChampSpells/Mordekaiser/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Mordekaiser/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Mordekaiser/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Mordekaiser/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Mordekaiser/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Mordekaiser/R.webp" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Mordekaiser/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Mordekaiser/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Mordekaiser/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Mordekaiser/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Mordekaiser/R.webp" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Mordekaiser/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Mordekaiser/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Mordekaiser/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Mordekaiser/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Mordekaiser/R.webp" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Mordekaiser/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Mordekaiser/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
     
                         <!-- Repeat the above structure for other images -->
@@ -2113,75 +2113,75 @@ function showSelectedModelContent() {
                         <div class="spells">
                         <div class="spell-image">
                             <img src="ChampSpells/Aphelios/Q.webp" alt="Q">
-                            <div class="label">Attack Damage</div>
+                            <div class="ad">Attack Damage</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Aphelios/Q.webp" alt="Q">
-                            <div class="label">Attack Damage</div>
+                            <div class="ad">Attack Damage</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Aphelios/Q.webp" alt="Q">
-                            <div class="label">Attack Damage</div>
+                            <div class="ad">Attack Damage</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Aphelios/W.webp" alt="W">
-                            <div class="label">Attack Speed</div>
+                            <div class="as">Attack Speed</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Aphelios/Q.webp" alt="Q">
-                            <div class="label">Attack Damage</div>
+                            <div class="ad">Attack Damage</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Aphelios/W.webp" alt="W">
-                            <div class="label">Attack Speed</div>
+                            <div class="as">Attack Speed</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Aphelios/Q.webp" alt="Q">
-                            <div class="label">Attack Damage</div>
+                            <div class="ad">Attack Damage</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Aphelios/W.webp" alt="W">
-                            <div class="label">Attack Speed</div>
+                            <div class="as">Attack Speed</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Aphelios/Q.webp" alt="Q">
-                            <div class="label">Attack Damage</div>
+                            <div class="ad">Attack Damage</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Aphelios/W.webp" alt="W">
-                            <div class="label">Attack Speed</div>
+                            <div class="as">Attack Speed</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Aphelios/W.webp" alt="W">
-                            <div class="label">Attack Speed</div>
+                            <div class="as">Attack Speed</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Aphelios/W.webp" alt="W">
-                            <div class="label">Attack Speed</div>
+                            <div class="as">Attack Speed</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Aphelios/E.webp" alt="E">
-                            <div class="label">Lethality</div>
+                            <div class="lethality">Lethality</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Aphelios/E.webp" alt="E">
-                            <div class="label">Lethality</div>
+                            <div class="lethality">Lethality</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Aphelios/E.webp" alt="E">
-                            <div class="label">Lethality</div>
+                            <div class="lethality">Lethality</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Aphelios/E.webp" alt="E">
-                            <div class="label">Lethality</div>
+                            <div class="lethality">Lethality</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Aphelios/E.webp" alt="E">
-                            <div class="label">Lethality</div>
+                            <div class="lethality">Lethality</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Aphelios/E.webp" alt="E">
-                            <div class="label">Lethality</div>
+                            <div class="lethality">Lethality</div>
                         </div>
     
                         <!-- Repeat the above structure for other images -->
