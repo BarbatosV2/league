@@ -225,12 +225,12 @@ function showSelectedModelContent() {
                 <h3 class="title">Primary Rune</h3>
                 <div class="rune-container">
                     <div class="rune-row">
-                        <img class="rune-image" src="Runes/Resolve/Resolve_icon.webp">
+                        <img class="rune-firstimage" src="Runes/Resolve/Resolve_icon.webp">
                     </div>
-                    <div class="rune-row">
-                        <img class="rune-image rune-unselect" src="Runes/Resolve/Grasp_of_the_Undying_rune.webp">
-                        <img class="rune-image" src="Runes/Resolve/Aftershock_rune.webp">
-                        <img class="rune-image rune-unselect" src="Runes/Resolve/Guardian_rune.webp">
+                    <div class="rune-firstrow">
+                        <img class="rune-firstimage rune-unselect" src="Runes/Resolve/Grasp_of_the_Undying_rune.webp">
+                        <img class="rune-firstimage" src="Runes/Resolve/Aftershock_rune.webp">
+                        <img class="rune-firstimage rune-unselect" src="Runes/Resolve/Guardian_rune.webp">
                     </div>
                     <div class="rune-row">
                         <img class="rune-image rune-unselect" src="Runes/Resolve/Demolish_rune.webp">
@@ -251,7 +251,7 @@ function showSelectedModelContent() {
                 <h3 class="title">Secondary Rune</h3>
                 <div class="rune-container">
                     <div class="rune-row">
-                        <img class="rune-image" src="Runes/Precision/Precision_icon.webp">
+                        <img class="rune-firstimage" src="Runes/Precision/Precision_icon.webp">
                     </div>
                     <div class="rune-row">
                         <img class="rune-image rune-unselect" src="Runes/Precision/Overheal_rune.webp">
@@ -397,13 +397,13 @@ function showSelectedModelContent() {
                         <h3 class="title">Primary Rune</h3>
                         <div class="rune-container">
                             <div class="rune-row">
-                                <img class="rune-image" src="Runes/Precision/Precision_icon.webp">
+                                <img class="rune-firstimage" src="Runes/Precision/Precision_icon.webp">
                             </div>
-                            <div class="rune-main">
-                                <img class="rune-image" src="Runes/Precision/Press_the_Attack_rune.webp">
-                                <img class="rune-image rune-unselect" src="Runes/Precision/Lethal_Tempo_rune.webp">
-                                <img class="rune-image rune-unselect" src="Runes/Precision/Fleet_Footwork_rune.webp">
-                                <img class="rune-image rune-unselect" src="Runes/Precision/Conqueror_rune.webp">
+                            <div class="rune-firstrow">
+                                <img class="rune-firstimage" src="Runes/Precision/Press_the_Attack_rune.webp">
+                                <img class="rune-firstimage rune-unselect" src="Runes/Precision/Lethal_Tempo_rune.webp">
+                                <img class="rune-firstimage rune-unselect" src="Runes/Precision/Fleet_Footwork_rune.webp">
+                                <img class="rune-firstimage rune-unselect" src="Runes/Precision/Conqueror_rune.webp">
                             </div>
                             <div class="rune-row">
                                 <img class="rune-image rune-unselect" src="Runes/Precision/Overheal_rune.webp">
@@ -424,7 +424,7 @@ function showSelectedModelContent() {
                         <h3 class="title">Secondary Rune</h3>
                         <div class="rune-container">
                             <div class="rune-row">
-                                <img class="rune-image" src="Runes/Sorcery/Sorcery_icon.webp">
+                                <img class="rune-firstimage" src="Runes/Sorcery/Sorcery_icon.webp">
                             </div>
                             <div class="rune-row">
                                 <img class="rune-image rune-unselect" src="Runes/Sorcery/Nullifying_Orb_rune.webp">
@@ -570,12 +570,12 @@ function showSelectedModelContent() {
                     <h3 class="title">Primary Rune</h3>
                     <div class="rune-container">
                         <div class="rune-row">
-                            <img class="rune-image" src="Runes/Resolve/Resolve_icon.webp">
+                            <img class="rune-firstimage" src="Runes/Resolve/Resolve_icon.webp">
                         </div>
-                        <div class="rune-row">
-                            <img class="rune-image rune-unselect" src="Runes/Resolve/Grasp_of_the_Undying_rune.webp">
-                            <img class="rune-image" src="Runes/Resolve/Aftershock_rune.webp">
-                            <img class="rune-image rune-unselect" src="Runes/Resolve/Guardian_rune.webp">
+                        <div class="rune-firstrow">
+                            <img class="rune-firstimage rune-unselect" src="Runes/Resolve/Grasp_of_the_Undying_rune.webp">
+                            <img class="rune-firstimage" src="Runes/Resolve/Aftershock_rune.webp">
+                            <img class="rune-firstimage rune-unselect" src="Runes/Resolve/Guardian_rune.webp">
                         </div>
                         <div class="rune-row">
                             <img class="rune-image rune-unselect" src="Runes/Resolve/Demolish_rune.webp">
@@ -596,7 +596,7 @@ function showSelectedModelContent() {
                     <h3 class="title">Secondary Rune</h3>
                     <div class="rune-container">
                         <div class="rune-row">
-                            <img class="rune-image" src="Runes/Precision/Precision_icon.webp">
+                            <img class="rune-firstimage" src="Runes/Precision/Precision_icon.webp">
                         </div>
                         <div class="rune-row">
                             <img class="rune-image rune-unselect" src="Runes/Precision/Overheal_rune.webp">
@@ -744,12 +744,13 @@ function showSelectedModelContent() {
                     <h3 class="title">Primary Rune</h3>
                     <div class="rune-container">
                         <div class="rune-row">
-                            <img class="rune-image" src="Runes/Precision/Precision_icon.webp">
+                            <img class="rune-firstimage" src="Runes/Precision/Precision_icon.webp">
                         </div>
-                        <div class="rune-row">
-                            <img class="rune-image rune-unselect" src="Runes/Precision/Press_the_Attack_rune.webp">
-                            <img class="rune-image rune-unselect" src="Runes/Precision/Fleet_Footwork_rune.webp">
-                            <img class="rune-image" src="Runes/Precision/Conqueror_rune.webp">
+                        <div class="rune-firstrow">
+                            <img class="rune-firstimage rune-unselect" src="Runes/Precision/Press_the_Attack_rune.webp">
+                            <img class="rune-firstimage rune-unselect" src="Runes/Precision/Lethal_Tempo_rune.webp">
+                            <img class="rune-firstimage rune-unselect" src="Runes/Precision/Fleet_Footwork_rune.webp">
+                            <img class="rune-firstimage" src="Runes/Precision/Conqueror_rune.webp">
                         </div>
                         <div class="rune-row">
                             <img class="rune-image rune-unselect" src="Runes/Precision/Absorb_Life_rune.webp">
@@ -770,7 +771,7 @@ function showSelectedModelContent() {
                     <h3 class="title">Secondary Rune</h3>
                         <div class="rune-container">
                             <div class="rune-row">
-                                <img class="rune-image" src="Runes/Inspiration/Inspiration_icon.webp">
+                                <img class="rune-firstimage" src="Runes/Inspiration/Inspiration_icon.webp">
                             </div>
                             <div class="rune-row">
                                 <img class="rune-image rune-unselect" src="Runes/Inspiration/Hextech_Flashtraption_rune.webp">
@@ -829,7 +830,7 @@ function showSelectedModelContent() {
         modelViewerContainer2.innerHTML = ''; // Clear model viewer container content
         switch (selectedModel) {
             case 'dragon-knight-mordekaiser.glb':
-                // Set model viewer container content for Sejuani
+                // Set model viewer container content for mordekaiser
                 modelViewerContainer2.innerHTML = `
                     <model-viewer src="3dAnimated/${selectedModel}" 
                     alt="Model" ar ar-modes="webxr scene-viewer quick-look" 
@@ -933,12 +934,13 @@ function showSelectedModelContent() {
                     <h3 class="title">Primary Rune</h3>
                     <div class="rune-container">
                         <div class="rune-row">
-                            <img class="rune-image" src="Runes/Precision/Precision_icon.webp">
+                            <img class="rune-firstimage" src="Runes/Precision/Precision_icon.webp">
                         </div>
-                        <div class="rune-row">
-                            <img class="rune-image rune-unselect" src="Runes/Precision/Press_the_Attack_rune.webp">
-                            <img class="rune-image rune-unselect" src="Runes/Precision/Fleet_Footwork_rune.webp">
-                            <img class="rune-image" src="Runes/Precision/Conqueror_rune.webp">
+                        <div class="rune-firstrow">
+                            <img class="rune-firstimage rune-unselect" src="Runes/Precision/Press_the_Attack_rune.webp">
+                            <img class="rune-firstimage rune-unselect" src="Runes/Precision/Lethal_Tempo_rune.webp">
+                            <img class="rune-firstimage rune-unselect" src="Runes/Precision/Fleet_Footwork_rune.webp">
+                            <img class="rune-firstimage" src="Runes/Precision/Conqueror_rune.webp">
                         </div>
                         <div class="rune-row">
                             <img class="rune-image rune-unselect" src="Runes/Precision/Overheal_rune.webp">
@@ -959,7 +961,7 @@ function showSelectedModelContent() {
                     <h3 class="title">Secondary Rune</h3>
                     <div class="rune-container">
                         <div class="rune-row">
-                            <img class="rune-image" src="Runes/Resolve/Resolve_icon.webp">
+                            <img class="rune-firstimage" src="Runes/Resolve/Resolve_icon.webp">
                         </div>
                         <div class="rune-row">
                             <img class="rune-image rune-unselect" src="Runes/Resolve/Demolish_rune.webp">
@@ -1029,75 +1031,75 @@ function showSelectedModelContent() {
                         <div class="spells">
                         <div class="spell-image">
                             <img src="ChampSpells/Rumble/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Rumble/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Rumble/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Rumble/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Rumble/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Rumble/R.webp" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Rumble/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Rumble/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Rumble/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Rumble/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Rumble/R.webp" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Rumble/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Rumble/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Rumble/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Rumble/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Rumble/R.webp" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Rumble/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Rumble/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
     
                         <!-- Repeat the above structure for other images -->
@@ -1108,12 +1110,12 @@ function showSelectedModelContent() {
                     <h3 class="title">Primary Rune</h3>
                     <div class="rune-container">
                         <div class="rune-row">
-                            <img class="rune-image" src="Runes/Sorcery/Sorcery_icon.webp">
+                            <img class="rune-firstimage" src="Runes/Sorcery/Sorcery_icon.webp">
                         </div>
-                        <div class="rune-row">
-                            <img class="rune-image rune-unselect" src="Runes/Sorcery/Summon_Aery_rune.webp">
-                            <img class="rune-image" src="Runes/Sorcery/Arcane_Comet_rune.webp">
-                            <img class="rune-image rune-unselect" src="Runes/Sorcery/Phase_Rush_rune.webp">
+                        <div class="rune-firstrow">
+                            <img class="rune-firstimage rune-unselect" src="Runes/Sorcery/Summon_Aery_rune.webp">
+                            <img class="rune-firstimage" src="Runes/Sorcery/Arcane_Comet_rune.webp">
+                            <img class="rune-firstimage rune-unselect" src="Runes/Sorcery/Phase_Rush_rune.webp">
                         </div>
                         <div class="rune-row">
                             <img class="rune-image rune-unselect" src="Runes/Sorcery/Nullifying_Orb_rune.webp">
@@ -1134,7 +1136,7 @@ function showSelectedModelContent() {
                     <h3 class="title">Secondary Rune</h3>
                     <div class="rune-container">
                         <div class="rune-row">
-                            <img class="rune-image" src="Runes/Precision/Precision_icon.webp">
+                            <img class="rune-firstimage" src="Runes/Precision/Precision_icon.webp">
                         </div>
                         <div class="rune-row">
                             <img class="rune-image" src="Runes/Precision/Absorb_Life_rune.webp">
@@ -1205,75 +1207,75 @@ function showSelectedModelContent() {
                         <div class="spells">
                         <div class="spell-image">
                             <img src="ChampSpells/Volibear/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Volibear/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Volibear/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Volibear/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Volibear/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Volibear/R.webp" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Volibear/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Volibear/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Volibear/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Volibear/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Volibear/R.webp" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Volibear/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Volibear/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Volibear/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Volibear/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Volibear/R.webp" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Volibear/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Volibear/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
     
                         <!-- Repeat the above structure for other images -->
@@ -1284,12 +1286,12 @@ function showSelectedModelContent() {
                     <h3 class="title">Primary Rune</h3>
                     <div class="rune-container">
                         <div class="rune-row">
-                            <img class="rune-image" src="Runes/Resolve/Resolve_icon.webp">
+                            <img class="rune-firstimage" src="Runes/Resolve/Resolve_icon.webp">
                         </div>
-                        <div class="rune-row">
-                            <img class="rune-image" src="Runes/Resolve/Grasp_of_the_Undying_rune.webp">
-                            <img class="rune-image rune-unselect" src="Runes/Resolve/Aftershock_rune.webp">
-                            <img class="rune-image rune-unselect" src="Runes/Resolve/Guardian_rune.webp">
+                        <div class="rune-firstrow">
+                            <img class="rune-firstimage" src="Runes/Resolve/Grasp_of_the_Undying_rune.webp">
+                            <img class="rune-firstimage rune-unselect" src="Runes/Resolve/Aftershock_rune.webp">
+                            <img class="rune-firstimage rune-unselect" src="Runes/Resolve/Guardian_rune.webp">
                         </div>
                         <div class="rune-row">
                             <img class="rune-image rune-unselect" src="Runes/Resolve/Demolish_rune.webp">
@@ -1310,7 +1312,7 @@ function showSelectedModelContent() {
                     <h3 class="title">Secondary Rune</h3>
                     <div class="rune-container">
                         <div class="rune-row">
-                            <img class="rune-image" src="Runes/Precision/Precision_icon.webp">
+                            <img class="rune-firstimage" src="Runes/Precision/Precision_icon.webp">
                         </div>
                         <div class="rune-row">
                             <img class="rune-image rune-unselect" src="Runes/Precision/Overheal_rune.webp">
@@ -1380,75 +1382,75 @@ function showSelectedModelContent() {
                         <div class="spells">
                         <div class="spell-image">
                             <img src="ChampSpells/Ornn/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Ornn/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Ornn/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Ornn/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Ornn/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Ornn/R.webp" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Ornn/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Ornn/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Ornn/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Ornn/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Ornn/R.webp" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Ornn/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Ornn/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Ornn/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Ornn/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Ornn/R.webp" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Ornn/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Ornn/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
     
                         <!-- Repeat the above structure for other images -->
@@ -1459,12 +1461,12 @@ function showSelectedModelContent() {
                     <h3 class="title">Primary Rune</h3>
                     <div class="rune-container">
                         <div class="rune-row">
-                            <img class="rune-image" src="Runes/Resolve/Resolve_icon.webp">
+                            <img class="rune-firstimage" src="Runes/Resolve/Resolve_icon.webp">
                         </div>
-                        <div class="rune-row">
-                            <img class="rune-image" src="Runes/Resolve/Grasp_of_the_Undying_rune.webp">
-                            <img class="rune-image rune-unselect" src="Runes/Resolve/Aftershock_rune.webp">
-                            <img class="rune-image rune-unselect" src="Runes/Resolve/Guardian_rune.webp">
+                        <div class="rune-firstrow">
+                            <img class="rune-firstimage" src="Runes/Resolve/Grasp_of_the_Undying_rune.webp">
+                            <img class="rune-firstimage rune-unselect" src="Runes/Resolve/Aftershock_rune.webp">
+                            <img class="rune-firstimage rune-unselect" src="Runes/Resolve/Guardian_rune.webp">
                         </div>
                         <div class="rune-row">
                             <img class="rune-image rune-unselect" src="Runes/Resolve/Demolish_rune.webp">
@@ -1485,7 +1487,7 @@ function showSelectedModelContent() {
                     <h3 class="title">Secondary Rune</h3>
                     <div class="rune-container">
                         <div class="rune-row">
-                            <img class="rune-image" src="Runes/Precision/Precision_icon.webp">
+                            <img class="rune-firstimage" src="Runes/Precision/Precision_icon.webp">
                         </div>
                         <div class="rune-row">
                             <img class="rune-image rune-unselect" src="Runes/Precision/Overheal_rune.webp">
@@ -1571,75 +1573,75 @@ function showSelectedModelContent() {
                     <div class="spells">
                         <div class="spell-image">
                             <img src="ChampSpells/Malzahar/E.jpg" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Malzahar/Q.jpg" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Malzahar/W.jpg" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Malzahar/E.jpg" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Malzahar/E.jpg" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Malzahar/R.jpg" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Malzahar/E.jpg" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Malzahar/W.jpg" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Malzahar/E.jpg" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Malzahar/W.jpg" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Malzahar/R.jpg" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Malzahar/W.jpg" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Malzahar/W.jpg" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Malzahar/Q.jpg" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Malzahar/Q.jpg" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Malzahar/R.jpg" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Malzahar/Q.jpg" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Malzahar/Q.jpg" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
     
                         <!-- Repeat the above structure for other images -->
@@ -1650,12 +1652,12 @@ function showSelectedModelContent() {
                     <h3 class="title">Primary Rune</h3>
                     <div class="rune-container">
                         <div class="rune-row">
-                            <img class="rune-image" src="Runes/Sorcery/Sorcery_icon.webp">
+                            <img class="rune-firstimage" src="Runes/Sorcery/Sorcery_icon.webp">
                         </div>
-                        <div class="rune-row">
-                            <img class="rune-image" src="Runes/Sorcery/Summon_Aery_rune.webp">
-                            <img class="rune-image rune-unselect" src="Runes/Sorcery/Arcane_Comet_rune.webp">
-                            <img class="rune-image rune-unselect" src="Runes/Sorcery/Phase_Rush_rune.webp">
+                        <div class="rune-firstrow">
+                            <img class="rune-firstimage" src="Runes/Sorcery/Summon_Aery_rune.webp">
+                            <img class="rune-firstimage rune-unselect" src="Runes/Sorcery/Arcane_Comet_rune.webp">
+                            <img class="rune-firstimage rune-unselect" src="Runes/Sorcery/Phase_Rush_rune.webp">
                         </div>
                         <div class="rune-row">
                             <img class="rune-image rune-unselect" src="Runes/Sorcery/Nullifying_Orb_rune.webp">
@@ -1676,7 +1678,7 @@ function showSelectedModelContent() {
                     <h3 class="title">Secondary Rune</h3>
                     <div class="rune-container">
                         <div class="rune-row">
-                            <img class="rune-image" src="Runes/Inspiration/Inspiration_icon.webp">
+                            <img class="rune-firstimage" src="Runes/Inspiration/Inspiration_icon.webp">
                         </div>
                         <div class="rune-row">
                             <img class="rune-image rune-unselect" src="Runes/Inspiration/Hextech_Flashtraption_rune.webp">
@@ -1746,75 +1748,75 @@ function showSelectedModelContent() {
                         <div class="spells">
                         <div class="spell-image">
                             <img src="ChampSpells/Veigar/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Veigar/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Veigar/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Veigar/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Veigar/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Veigar/R.webp" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Veigar/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Veigar/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Veigar/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Veigar/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Veigar/R.webp" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Veigar/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Veigar/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Veigar/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Veigar/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Veigar/R.webp" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Veigar/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Veigar/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
     
                         <!-- Repeat the above structure for other images -->
@@ -1825,12 +1827,12 @@ function showSelectedModelContent() {
                     <h3 class="title">Primary Rune</h3>
                     <div class="rune-container">
                         <div class="rune-row">
-                            <img class="rune-image" src="Runes/Domination/Domination_icon.webp">
+                            <img class="rune-firstimage" src="Runes/Domination/Domination_icon.webp">
                         </div>
-                        <div class="rune-row">
-                            <img class="rune-image" src="Runes/Domination/Electrocute_rune.webp">
-                            <img class="rune-image rune-unselect" src="Runes/Domination/Dark_Harvest_rune.webp">
-                            <img class="rune-image rune-unselect" src="Runes/Domination/Hail_of_Blades_rune.webp">
+                        <div class="rune-firstrow">
+                            <img class="rune-firstimage" src="Runes/Domination/Electrocute_rune.webp">
+                            <img class="rune-firstimage rune-unselect" src="Runes/Domination/Dark_Harvest_rune.webp">
+                            <img class="rune-firstimage rune-unselect" src="Runes/Domination/Hail_of_Blades_rune.webp">
                         </div>
                         <div class="rune-row">
                             <img class="rune-image rune-unselect" src="Runes/Domination/Cheap_Shot_rune.webp">
@@ -1851,7 +1853,7 @@ function showSelectedModelContent() {
                     <h3 class="title">Secondary Rune</h3>
                     <div class="rune-container">
                         <div class="rune-row">
-                            <img class="rune-image" src="Runes/Sorcery/Sorcery_icon.webp">
+                            <img class="rune-firstimage" src="Runes/Sorcery/Sorcery_icon.webp">
                         </div>
                         <div class="rune-row">
                             <img class="rune-image rune-unselect" src="Runes/Sorcery/Nullifying_Orb_rune.webp">
@@ -1922,75 +1924,75 @@ function showSelectedModelContent() {
                         <div class="spells">
                         <div class="spell-image">
                             <img src="ChampSpells/Vex/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Vex/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Vex/W.webp" alt="W">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Vex/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Vex/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Vex/R.webp" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Vex/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Vex/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Vex/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Vex/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Vex/R.webp" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Vex/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Vex/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Vex/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Vex/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Vex/R.webp" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Vex/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Vex/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
     
                         <!-- Repeat the above structure for other images -->
@@ -2001,12 +2003,12 @@ function showSelectedModelContent() {
                     <h3 class="title">Primary Rune</h3>
                     <div class="rune-container">
                         <div class="rune-row">
-                            <img class="rune-image" src="Runes/Domination/Domination_icon.webp">
+                            <img class="rune-firstimage" src="Runes/Domination/Domination_icon.webp">
                         </div>
-                        <div class="rune-row">
-                            <img class="rune-image" src="Runes/Domination/Electrocute_rune.webp">
-                            <img class="rune-image rune-unselect" src="Runes/Domination/Dark_Harvest_rune.webp">
-                            <img class="rune-image rune-unselect" src="Runes/Domination/Hail_of_Blades_rune.webp">
+                        <div class="rune-firstrow">
+                            <img class="rune-firstimage" src="Runes/Domination/Electrocute_rune.webp">
+                            <img class="rune-firstimage rune-unselect" src="Runes/Domination/Dark_Harvest_rune.webp">
+                            <img class="rune-firstimage rune-unselect" src="Runes/Domination/Hail_of_Blades_rune.webp">
                         </div>
                         <div class="rune-row">
                             <img class="rune-image rune-unselect" src="Runes/Domination/Cheap_Shot_rune.webp">
@@ -2027,7 +2029,7 @@ function showSelectedModelContent() {
                     <h3 class="title">Secondary Rune</h3>
                     <div class="rune-container">
                         <div class="rune-row">
-                            <img class="rune-image" src="Runes/Sorcery/Sorcery_icon.webp">
+                            <img class="rune-firstimage" src="Runes/Sorcery/Sorcery_icon.webp">
                         </div>
                         <div class="rune-row">
                             <img class="rune-image rune-unselect" src="Runes/Sorcery/Nullifying_Orb_rune.webp">
@@ -2112,51 +2114,51 @@ function showSelectedModelContent() {
                         <h3 class="title">lvl 1 - 18</h3>
                         <div class="spells">
                         <div class="spell-image">
-                            <img src="ChampSpells/Aphelios/Q.webp" alt="Q">
+                            <img src="ChampSpells/Aphelios/Q.svg" alt="Q">
                             <div class="ad">Attack Damage</div>
                         </div>
                         <div class="spell-image">
-                            <img src="ChampSpells/Aphelios/Q.webp" alt="Q">
+                            <img src="ChampSpells/Aphelios/Q.svg" alt="Q">
                             <div class="ad">Attack Damage</div>
                         </div>
                         <div class="spell-image">
-                            <img src="ChampSpells/Aphelios/Q.webp" alt="Q">
+                            <img src="ChampSpells/Aphelios/Q.svg" alt="Q">
                             <div class="ad">Attack Damage</div>
                         </div>
                         <div class="spell-image">
-                            <img src="ChampSpells/Aphelios/W.webp" alt="W">
+                            <img src="ChampSpells/Aphelios/W.svg" alt="W">
                             <div class="as">Attack Speed</div>
                         </div>
                         <div class="spell-image">
-                            <img src="ChampSpells/Aphelios/Q.webp" alt="Q">
+                            <img src="ChampSpells/Aphelios/Q.svg" alt="Q">
                             <div class="ad">Attack Damage</div>
                         </div>
                         <div class="spell-image">
-                            <img src="ChampSpells/Aphelios/W.webp" alt="W">
+                            <img src="ChampSpells/Aphelios/W.svg" alt="W">
                             <div class="as">Attack Speed</div>
                         </div>
                         <div class="spell-image">
-                            <img src="ChampSpells/Aphelios/Q.webp" alt="Q">
+                            <img src="ChampSpells/Aphelios/Q.svg" alt="Q">
                             <div class="ad">Attack Damage</div>
                         </div>
                         <div class="spell-image">
-                            <img src="ChampSpells/Aphelios/W.webp" alt="W">
+                            <img src="ChampSpells/Aphelios/W.svg" alt="W">
                             <div class="as">Attack Speed</div>
                         </div>
                         <div class="spell-image">
-                            <img src="ChampSpells/Aphelios/Q.webp" alt="Q">
+                            <img src="ChampSpells/Aphelios/Q.svg" alt="Q">
                             <div class="ad">Attack Damage</div>
                         </div>
                         <div class="spell-image">
-                            <img src="ChampSpells/Aphelios/W.webp" alt="W">
+                            <img src="ChampSpells/Aphelios/W.svg" alt="W">
                             <div class="as">Attack Speed</div>
                         </div>
                         <div class="spell-image">
-                            <img src="ChampSpells/Aphelios/W.webp" alt="W">
+                            <img src="ChampSpells/Aphelios/W.svg" alt="W">
                             <div class="as">Attack Speed</div>
                         </div>
                         <div class="spell-image">
-                            <img src="ChampSpells/Aphelios/W.webp" alt="W">
+                            <img src="ChampSpells/Aphelios/W.svg" alt="W">
                             <div class="as">Attack Speed</div>
                         </div>
                         <div class="spell-image">
@@ -2203,13 +2205,13 @@ function showSelectedModelContent() {
                         <h3 class="title">Primary Rune</h3>
                         <div class="rune-container">
                             <div class="rune-row">
-                                <img class="rune-image" src="Runes/Precision/Precision_icon.webp">
+                                <img class="rune-firstimage" src="Runes/Precision/Precision_icon.webp">
                             </div>
-                            <div class="rune-main">
-                                <img class="rune-image" src="Runes/Precision/Press_the_Attack_rune.webp">
-                                <img class="rune-image rune-unselect" src="Runes/Precision/Lethal_Tempo_rune.webp">
-                                <img class="rune-image rune-unselect" src="Runes/Precision/Fleet_Footwork_rune.webp">
-                                <img class="rune-image rune-unselect" src="Runes/Precision/Conqueror_rune.webp">
+                            <div class="rune-firstrow">
+                                <img class="rune-firstimage" src="Runes/Precision/Press_the_Attack_rune.webp">
+                                <img class="rune-firstimage rune-unselect" src="Runes/Precision/Lethal_Tempo_rune.webp">
+                                <img class="rune-firstimage rune-unselect" src="Runes/Precision/Fleet_Footwork_rune.webp">
+                                <img class="rune-firstimage rune-unselect" src="Runes/Precision/Conqueror_rune.webp">
                             </div>
                             <div class="rune-row">
                                 <img class="rune-image rune-unselect" src="Runes/Precision/Overheal_rune.webp">
@@ -2231,7 +2233,7 @@ function showSelectedModelContent() {
                     <h3 class="title">Secondary Rune</h3>
                     <div class="rune-container">
                             <div class="rune-row">
-                                <img class="rune-image" src="Runes/Sorcery/Sorcery_icon.webp">
+                                <img class="rune-firstimage" src="Runes/Sorcery/Sorcery_icon.webp">
                             </div>
                             <div class="rune-row">
                                 <img class="rune-image rune-unselect" src="Runes/Sorcery/Nullifying_Orb_rune.webp">
@@ -2318,75 +2320,75 @@ function showSelectedModelContent() {
                         <div class="spells">
                         <div class="spell-image">
                             <img src="ChampSpells/Yone/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Yone/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Yone/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Yone/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Yone/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Yone/R.webp" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Yone/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Yone/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Yone/Q.webp" alt="Q">
-                            <div class="label">Q</div>
+                            <div class="q">Q</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Yone/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Yone/R.webp" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Yone/W.webp" alt="W">
-                            <div class="label">W</div>
+                            <div class="w">W</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Yone/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Yone/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Yone/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Yone/R.webp" alt="R">
-                            <div class="label">R</div>
+                            <div class="r">R</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Yone/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
                         <div class="spell-image">
                             <img src="ChampSpells/Yone/E.webp" alt="E">
-                            <div class="label">E</div>
+                            <div class="e">E</div>
                         </div>
     
                         <!-- Repeat the above structure for other images -->
@@ -2397,13 +2399,13 @@ function showSelectedModelContent() {
                         <h3 class="title">Primary Rune</h3>
                         <div class="rune-container">
                             <div class="rune-row">
-                                <img class="rune-image" src="Runes/Precision/Precision_icon.webp">
+                                <img class="rune-firstimage" src="Runes/Precision/Precision_icon.webp">
                             </div>
-                            <div class="rune-main">
-                                <img class="rune-image rune-unselect" src="Runes/Precision/Press_the_Attack_rune.webp">
-                                <img class="rune-image" src="Runes/Precision/Lethal_Tempo_rune.webp">
-                                <img class="rune-image rune-unselect" src="Runes/Precision/Fleet_Footwork_rune.webp">
-                                <img class="rune-image rune-unselect" src="Runes/Precision/Conqueror_rune.webp">
+                            <div class="rune-firstrow">
+                                <img class="rune-firstimage rune-unselect" src="Runes/Precision/Press_the_Attack_rune.webp">
+                                <img class="rune-firstimage" src="Runes/Precision/Lethal_Tempo_rune.webp">
+                                <img class="rune-firstimage rune-unselect" src="Runes/Precision/Fleet_Footwork_rune.webp">
+                                <img class="rune-firstimage rune-unselect" src="Runes/Precision/Conqueror_rune.webp">
                             </div>
                             <div class="rune-row">
                                 <img class="rune-image rune-unselect" src="Runes/Precision/Overheal_rune.webp">
@@ -2425,7 +2427,7 @@ function showSelectedModelContent() {
                     <h3 class="title">Secondary Rune</h3>
                     <div class="rune-container">
                         <div class="rune-row">
-                            <img class="rune-image" src="Runes/Resolve/Resolve_icon.webp">
+                            <img class="rune-firstimage" src="Runes/Resolve/Resolve_icon.webp">
                         </div>
                         <div class="rune-row">
                             <img class="rune-image rune-unselect" src="Runes/Resolve/Demolish_rune.webp">
