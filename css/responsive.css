@@ -1,5 +1,24 @@
 /* responsive.css */
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1170px) {
+
+    html, body {
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    .image-container {
+        max-width: 100%;
+        overflow-x: hidden; /* Prevents sliding issue */
+    }
+
+    * {
+        box-sizing: border-box; /* Ensures padding/margin don’t cause overflow */
+    }
+    
     .gallery-image {
         width: 150px;
         height: 150px;
