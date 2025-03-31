@@ -10,11 +10,6 @@
         max-width: 100%;
     }
 
-    .image-container {
-        max-width: 100%;
-        overflow-x: hidden; /* Prevents sliding issue */
-    }
-
     * {
         box-sizing: border-box; /* Ensures padding/margin don’t cause overflow */
     }
