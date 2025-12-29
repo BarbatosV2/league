@@ -1553,11 +1553,11 @@ function showSelectedModelContent() {
                     <p class="para">LvL 6 and I will be all in</p>
                     <h2 class="title">Priority</h2>
                     <div class="map-container">
-                    <img src="map/top/LoLMap_Prio.png" alt="LoLMap_Prio">
+                    <img src="map/Top/LoLMap_Prio.png" alt="LoLMap_Prio">
                     </div>
                     <h2 class="title">Counter</h2>
                     <div class="map-container">
-                    <img src="map/top/LoLMap_Counter.png" alt="LoLMap_Counter">
+                    <img src="map/Top/LoLMap_Counter.png" alt="LoLMap_Counter">
                     </div>
                     <h2 class="title">Spells</h2>
                     <h3 class="title">lvl 1 - 18</h3>
@@ -2665,3 +2665,4 @@ function showSelectedModelContent() {
         }
     }
 }
+
